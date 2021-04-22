@@ -1,6 +1,0 @@
-import './packages/wot-interaction/src/wot-interaction.js'
-// import './packages/wot-property/src/wot-property.js'
-// import './packages/wot-action/src/wot-action.js'
-// import './packages/wot-event/src/wot-event.js'
-// import './packages/wot-link/src/wot-link.js'
-import './packages/wot-stepper/src/wot-stepper.js'

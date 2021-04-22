@@ -27,6 +27,8 @@ To submit a plugin for review:
 
 ### Plugin Assets Schema
 
+The assets array must conform to an array of [image resource objects](https://www.w3.org/TR/image-resource/).
+
 | Property | Type   | Description                                                 |
 | -------- | ------ | ----------------------------------------------------------- |
 | `logo`   | Object | Object with form `{ light, dark }` indicating URLs to logos |
@@ -53,17 +55,17 @@ Here's an example of a plugin:
   "description": "Button widget for Asterisc",
   "assets": {
     "logo": {
-      "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/src/assets/logos/logo-light.png",
-      "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/src/assets/logos/logo-dark.png"
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/button/src/assets/images/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/button/src/assets/images/logo-dark.png"
     },
     "images": [
       {
         "name": "Demo",
-        "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
       },
       {
         "name": "Options",
-        "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
       }
     ]
   },
@@ -71,17 +73,17 @@ Here's an example of a plugin:
     {
       "name": "Homepage",
       "rel": "homepage",
-      "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/button"
+      "href": "https://github.com/asteriscio/plugins/tree/main/widgets/button"
     },
     {
       "name": "Repository",
       "rel": "repository",
-      "href": "https://github.com/asterisc-io/plugins"
+      "href": "https://github.com/asteriscio/plugins"
     },
     {
       "name": "MIT License",
       "rel": "license",
-      "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/LICENSE"
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/button/LICENSE"
     }
   ],
   "keywords": ["asterisc", "plugin", "widget", "button"],

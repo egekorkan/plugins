@@ -1521,90 +1521,41 @@
     "upvotes": 1
   },
   {
-    "uid": "alert-table-widget",
+    "uid": "eventlog-widget",
     "version": "1.0.0",
     "type": "widget",
     "name": "Alert table",
     "description": "Alert table widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "eventlog"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the alert table widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/alert-table"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/eventlog",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "alert-table"],
-    "author": "asterisc",
-    "license": "MIT"
-  },
-  {
-    "uid": "andon-board-widget",
-    "version": "1.0.0",
-    "type": "widget",
-    "name": "Andon board",
-    "description": "Andon board widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
-    "links": [
-      {
-        "name": "Homepage",
-        "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/andon-board"
-      },
-      {
-        "name": "Repository",
-        "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
-      },
-      {
-        "name": "MIT License",
-        "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/andon-board/LICENSE"
-      }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "andon-board"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "button-widget",
@@ -1612,42 +1563,36 @@
     "type": "widget",
     "name": "Button",
     "description": "Button widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "button"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the button widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/button"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/button",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "button"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "chart-widget",
@@ -1655,42 +1600,31 @@
     "type": "widget",
     "name": "Chart",
     "description": "Chart widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "chart"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/chart"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/chart",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "chart"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "checklist-widget",
@@ -1698,85 +1632,36 @@
     "type": "widget",
     "name": "Checklist",
     "description": "Checklist widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/checklist/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/checklist/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
-    "links": [
-      {
-        "name": "Homepage",
-        "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/checklist"
-      },
-      {
-        "name": "Repository",
-        "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
-      },
-      {
-        "name": "MIT License",
-        "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/checklist/LICENSE"
-      }
-    ],
     "keywords": ["asterisc", "plugin", "widget", "checklist"],
-    "author": "asterisc",
-    "license": "MIT"
-  },
-  {
-    "uid": "floorplan-widget",
-    "version": "1.0.0",
-    "type": "widget",
-    "name": "Floorplan",
-    "description": "Floorplan widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/floorplan/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/floorplan/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the checklist widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/floorplan"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/checklist",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/floorplan/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "floorplan"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "knob-widget",
@@ -1784,42 +1669,36 @@
     "type": "widget",
     "name": "Knob",
     "description": "Knob widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/knob/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/knob/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "knob"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the knob widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/knob"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/knob",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/knob/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "knob"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "map-widget",
@@ -1827,42 +1706,36 @@
     "type": "widget",
     "name": "Map",
     "description": "Map widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/map/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/map/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "map"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the map widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/map"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/map",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/map/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "map"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "markdown-widget",
@@ -1870,42 +1743,36 @@
     "type": "widget",
     "name": "Markdown",
     "description": "Markdown widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/markdown/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/markdown/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "markdown"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the markdown widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/markdown"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/markdown",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/markdown/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "markdown"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "slider-widget",
@@ -1913,42 +1780,36 @@
     "type": "widget",
     "name": "Slider",
     "description": "Slider widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/slider/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/slider/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "slider"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the slider widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/slider"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/slider",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/slider/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "slider"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "sparkline-widget",
@@ -1956,42 +1817,36 @@
     "type": "widget",
     "name": "Sparkline",
     "description": "Sparkline widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/sparkline/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/sparkline/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "sparkline"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the sparkline widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/sparkline"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/sparkline",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/sparkline/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "sparkline"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "stepper-widget",
@@ -1999,42 +1854,36 @@
     "type": "widget",
     "name": "Stepper",
     "description": "Stepper widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/stepper/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/stepper/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "stepper"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the stepper widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/stepper"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/stepper",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/stepper/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "stepper"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "switch-widget",
@@ -2042,42 +1891,36 @@
     "type": "widget",
     "name": "Switch",
     "description": "Switch widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/switch/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/switch/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "switch"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the switch widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/switch"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/switch",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/switch/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "switch"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "table-widget",
@@ -2085,42 +1928,36 @@
     "type": "widget",
     "name": "Table",
     "description": "Table widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/table/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/table/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "table"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the table widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/table"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/table",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/table/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "table"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
     "uid": "text-widget",
@@ -2128,170 +1965,72 @@
     "type": "widget",
     "name": "Text",
     "description": "Text widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/text/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/text/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
-    "links": [
-      {
-        "name": "Homepage",
-        "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/text"
-      },
-      {
-        "name": "Repository",
-        "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
-      },
-      {
-        "name": "MIT License",
-        "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/text/LICENSE"
-      }
-    ],
     "keywords": ["asterisc", "plugin", "widget", "text"],
-    "author": "asterisc",
-    "license": "MIT"
-  },
-  {
-    "uid": "trackmap-widget",
-    "version": "1.0.0",
-    "type": "widget",
-    "name": "Trackmap",
-    "description": "Trackmap widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/trackmap/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/trackmap/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the text widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/trackmap"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/text",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/trackmap/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "trackmap"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   },
   {
-    "uid": "web-content-widget",
+    "uid": "webcontent-widget",
     "version": "1.0.0",
     "type": "widget",
     "name": "Web content",
     "description": "Web content widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-content/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-content/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
+    "keywords": ["asterisc", "plugin", "widget", "webcontent"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/index.js",
     "links": [
       {
-        "name": "Homepage",
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the web content widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
         "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/web-content"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/webcontent",
+        "type": "text/html"
       },
       {
-        "name": "Repository",
         "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
       },
       {
-        "name": "MIT License",
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-content/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/LICENSE",
+        "type": "text/html"
       }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "web-content"],
-    "author": "asterisc",
-    "license": "MIT"
-  },
-  {
-    "uid": "web-form-widget",
-    "version": "1.0.0",
-    "type": "widget",
-    "name": "Web form",
-    "description": "Web form widget for Asterisc",
-    "assets": {
-      "logo": {
-        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-form/src/assets/logos/logo-light.png",
-        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-form/src/assets/logos/logo-dark.png"
-      },
-      "images": [
-        {
-          "name": "Demo",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
-        },
-        {
-          "name": "Options",
-          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
-        }
-      ]
-    },
-    "links": [
-      {
-        "name": "Homepage",
-        "rel": "homepage",
-        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/web-form"
-      },
-      {
-        "name": "Repository",
-        "rel": "repository",
-        "href": "https://github.com/asterisc-io/plugins"
-      },
-      {
-        "name": "MIT License",
-        "rel": "license",
-        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-form/LICENSE"
-      }
-    ],
-    "keywords": ["asterisc", "plugin", "widget", "web-form"],
-    "author": "asterisc",
-    "license": "MIT"
+    ]
   }
 ]

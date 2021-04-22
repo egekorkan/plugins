@@ -1,0 +1,40 @@
+{
+  "id": "slider-widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "name": "Slider",
+  "description": "Slider widget for Asterisc",
+  "assets": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/slider/src/assets/images/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/slider/src/assets/images/logo-dark.png"
+    },
+    "images": [
+      {
+        "name": "Demo",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "name": "Options",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "Homepage",
+      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/slider"
+    },
+    {
+      "name": "Repository",
+      "url": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "name": "MIT License",
+      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/slider/LICENSE"
+    }
+  ],
+  "keywords": ["asterisc", "plugin", "widget", "slider"],
+  "author": "asterisc",
+  "license": "MIT"
+}

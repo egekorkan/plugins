@@ -1,0 +1,40 @@
+{
+  "id": "table-widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "name": "Table",
+  "description": "Table widget for Asterisc",
+  "assets": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/table/src/assets/images/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/table/src/assets/images/logo-dark.png"
+    },
+    "images": [
+      {
+        "name": "Demo",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "name": "Options",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "Homepage",
+      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/table"
+    },
+    {
+      "name": "Repository",
+      "url": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "name": "MIT License",
+      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/table/LICENSE"
+    }
+  ],
+  "keywords": ["asterisc", "plugin", "widget", "table"],
+  "author": "asterisc",
+  "license": "MIT"
+}

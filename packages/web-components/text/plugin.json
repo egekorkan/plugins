@@ -1,0 +1,40 @@
+{
+  "id": "text-widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "name": "Text",
+  "description": "Text widget for Asterisc",
+  "assets": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/text/src/assets/images/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/text/src/assets/images/logo-dark.png"
+    },
+    "images": [
+      {
+        "name": "Demo",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "name": "Options",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "Homepage",
+      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/text"
+    },
+    {
+      "name": "Repository",
+      "url": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "name": "MIT License",
+      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/text/LICENSE"
+    }
+  ],
+  "keywords": ["asterisc", "plugin", "widget", "text"],
+  "author": "asterisc",
+  "license": "MIT"
+}

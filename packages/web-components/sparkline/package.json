@@ -1,0 +1,24 @@
+{
+  "name": "asterisc-sparkline-widget",
+  "version": "0.0.0",
+  "description": "Sparkline widget for Asterisc",
+  "repository": "github:asteriscio/asterisc-sparkline-widget",
+  "homepage": "https://asterisc.io/plugins/asterisc-sparkline-widget",
+  "author": {
+    "name": "Miguel Romero Karam",
+    "email": "miguelromerokaram@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {},
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "widget",
+    "sparkline"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

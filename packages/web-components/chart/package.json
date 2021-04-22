@@ -1,0 +1,24 @@
+{
+  "name": "asterisc-chart-widget",
+  "version": "0.0.0",
+  "description": "Chart widget for Asterisc",
+  "repository": "github:asteriscio/asterisc-chart-widget",
+  "homepage": "https://asterisc.io/plugins/asterisc-chart-widget",
+  "author": {
+    "name": "Miguel Romero Karam",
+    "email": "miguelromerokaram@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {},
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "widget",
+    "chart"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

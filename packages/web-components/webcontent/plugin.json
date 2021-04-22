@@ -1,0 +1,40 @@
+{
+  "id": "webcontent-widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "name": "Web content",
+  "description": "Web content widget for Asterisc",
+  "assets": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/webcontent/src/assets/images/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/webcontent/src/assets/images/logo-dark.png"
+    },
+    "images": [
+      {
+        "name": "Demo",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "name": "Options",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "Homepage",
+      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/webcontent"
+    },
+    {
+      "name": "Repository",
+      "url": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "name": "MIT License",
+      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/webcontent/LICENSE"
+    }
+  ],
+  "keywords": ["asterisc", "plugin", "widget", "webcontent"],
+  "author": "asterisc",
+  "license": "MIT"
+}
