@@ -1,0 +1,25 @@
+{
+  "name": "@asteriscio/plugins",
+  "version": "0.0.1",
+  "description": "Plugin repository for Asterisc, a Web of Things platform to interconnect IoT devices, platforms and services over the web.",
+  "keywords": [
+    "asterisc",
+    "wot",
+    "web-of-things",
+    "iot",
+    "internet-of-things",
+    "w3c",
+    "opensource"
+  ],
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/plugins#readme",
+  "bugs": {
+    "url": "https://github.com/asteriscio/plugins/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asteriscio/plugins.git"
+  },
+  "license": "MIT",
+  "author": "Asterisc GmbH",
+  "type": "module"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "asterisc-text-widget",
+  "version": "0.0.0",
+  "description": "Text widget for Asterisc",
+  "repository": "github:asteriscio/asterisc-text-widget",
+  "homepage": "https://asterisc.io/plugins/asterisc-text-widget",
+  "author": {
+    "name": "Miguel Romero Karam",
+    "email": "miguelromerokaram@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "private": true,
+  "type": "module",
+  "main": "src/module.js",
+  "scripts": {},
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "widget",
+    "text"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}

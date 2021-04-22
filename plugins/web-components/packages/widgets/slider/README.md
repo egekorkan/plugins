@@ -1,0 +1,1 @@
+# asterisc-[plugin-name]-widget

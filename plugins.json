@@ -1,0 +1,2297 @@
+[
+  {
+    "_id": "606c16c0ad06bcbaff0ebe14",
+    "_type": "plugin",
+    "name": "Thingsboard",
+    "description": "Device management, data collection, processing and visualization for your IoT solution",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2021-03-29T18:06:13.393Z",
+    "__v": 0,
+    "uid": "thingsboard",
+    "display": {
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuMTQRbYvHEERcvN2QSVOnm4PA7AkEGWgQvA&usqp=CAU",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://thingsboard.io",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-thingsboard/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 1
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe18",
+    "_type": "plugin",
+    "name": "WebThings",
+    "description": "Mozilla WebThings is Mozilla’s open source implementation of the Web of Things, including the WebThings Gateway and the WebThings framework.",
+    "createdAt": "2020-06-15T00:28:54.792Z",
+    "updatedAt": "2021-04-11T13:11:08.044Z",
+    "__v": 0,
+    "uid": "webthings",
+    "display": {
+      "imageUrl": "https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/firefox/files/2017/12/firefox-logo-300x310.png",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://webthings.io",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-webthings/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 2
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe17",
+    "_type": "plugin",
+    "name": "Ubidots",
+    "description": "Ubidots is a platform for developing end-to-end IoT applications.",
+    "uid": "ubidots",
+    "display": {
+      "imageUrl": "https://res-4.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco/v1488396653/pbostyguvn1xs4qiy78d.png",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2021-04-11T13:11:09.672Z",
+    "category": "official",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://ubidots.com",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-ubidots/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 1
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe1b",
+    "_type": "plugin",
+    "name": "Losant",
+    "description": "Losant is a powerful, easy-to-use enterprise IoT platform.",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2020-06-15T00:32:19.620Z",
+    "__v": 0,
+    "uid": "losant",
+    "display": {
+      "imageUrl": "https://cdn.worldvectorlogo.com/logos/losant.svg",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "ready",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://losant.com",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-losant/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe22",
+    "_type": "plugin",
+    "type": "thing-model",
+    "uid": "hue-white-light",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "name": "HUE White Light",
+    "description": "TD of a HUE White Light Bulb",
+    "keywords": ["asterisc", "wot", "thing-model"],
+    "markdown": "## Philips HUE Lights\r\n\r\nThis is a TD of a light bulb that connects to a Philips HUE Bridge.\r\n\r\n### Get it running\r\n\r\n* Follow the Philips HUE in-app guide to get your bridge started.\r\n* Follow the [developer page](https://developers.meethue.com/develop/get-started-2/) to get an API Key\r\n* The base URI is using our API Key and Light number, replace them with yours:\r\n  * Look for the base URI in the TD\r\n  * Replace the part between `/api/` and `/lights/` with your API key.\r\n  * This TD is representing light number 1. You should replace the part after `/lights/` with your light's number.\r\n  * This TD uses `Philips-hue` as hostname, in case you have multiple HUE Bridges, you will need to change this in the base URI as well\r\n",
+    "meta": {
+      "topic": ["lighting"],
+      "labels": ["Philips", "HUE", "LED"],
+      "version": "1.0.0",
+      "category": "official",
+      "links": [
+        {
+          "rel": "asterisc-docs",
+          "href": "https://asterisc.io/docs",
+          "type": "text/html"
+        }
+      ]
+    },
+    "display": {
+      "imageUrl": "https://cdn.bauhaus.dk/media/catalog/product/cache/0aa8881122f7fd15f2f183ba935339cc/2/1/2143427A_1_TSad293435-ed7e-47c0-bd2a-ebdb8ca2b15f_1.jpg",
+      "color": ""
+    },
+    "status": "beta",
+    "category": "official",
+    "version": "1.0.0",
+    "plugin": {
+      "td": {
+        "title": "Hue White Lamp 1",
+        "id": "urn:dev:ops:32473-HueLight-1",
+        "description": "This is a Philips Hue White Light Bulb that can be controlled remotely. It is configured for a specific router.",
+        "@context": [
+          "https://www.w3.org/2019/wot/td/v1",
+          {
+            "@language": "en"
+          }
+        ],
+        "securityDefinitions": {
+          "nosec_sc": {
+            "scheme": "nosec"
+          }
+        },
+        "security": ["nosec_sc"],
+        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws/lights/1",
+        "properties": {
+          "lightInformation": {
+            "title": "State and Attributes Of Light",
+            "description": "Gets the attributes and state of a given light",
+            "type": "object",
+            "properties": {
+              "state": {
+                "description": "Details the state of the light, see the state table below for more details.",
+                "type": "object",
+                "properties": {
+                  "on": {
+                    "description": "On/Off state of the light. On=true, Off=false",
+                    "type": "boolean",
+                    "readOnly": true,
+                    "writeOnly": false
+                  },
+                  "alert": {
+                    "description": "The alert effect, which is a temporary change to the bulb’s state.'l' of lselect stands for loop.",
+                    "type": "string",
+                    "enum": ["none", "select", "lselect"],
+                    "readOnly": true,
+                    "writeOnly": false
+                  },
+                  "bri": {
+                    "description": "brightness level",
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 254,
+                    "readOnly": true,
+                    "writeOnly": false
+                  },
+                  "reachable": {
+                    "description": "Indicates if a light can be reached by the bridge",
+                    "type": "boolean",
+                    "readOnly": true,
+                    "writeOnly": false
+                  }
+                }
+              },
+              "type": {
+                "description": "A fixed name describing the type of light",
+                "type": "string",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "name": {
+                "description": "A unique, editable name given to the light",
+                "type": "string",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "modelid": {
+                "description": "The hardware model of the light.",
+                "type": "string",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "swversion": {
+                "description": "An identifier for the software version running on the light",
+                "type": "string",
+                "readOnly": true,
+                "writeOnly": false
+              }
+            },
+            "forms": [
+              {
+                "href": "/",
+                "htv:methodName": "GET",
+                "http:methodName": "GET",
+                "contentType": "application/json",
+                "op": ["readproperty"]
+              },
+              {
+                "href": "/",
+                "htv:methodName": "PUT",
+                "contentType": "application/json",
+                "op": ["writeproperty"]
+              }
+            ]
+          }
+        },
+        "actions": {
+          "rename": {
+            "title": "Rename Light",
+            "description": "A light can have its name changed when in any state, including when it is unreachable or off.",
+            "input": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "type": "string",
+                  "minLength": 0,
+                  "maxLength": 32
+                }
+              }
+            },
+            "output": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "success": {
+                    "type": "object",
+                    "properties": {},
+                    "additionalProperties": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            },
+            "forms": [
+              {
+                "href": "/",
+                "contentType": "application/json",
+                "htv:methodName": "PUT",
+                "op": ["invokeaction"]
+              }
+            ],
+            "idempotent": true,
+            "safe": false
+          },
+          "set_state": {
+            "title": "Set State",
+            "description": "Allows the user to turn the light on and off, modify the hue and effects",
+            "input": {
+              "type": "object",
+              "properties": {
+                "on": {
+                  "description": "On/Off state of the light. On=true, Off=false",
+                  "type": "boolean"
+                },
+                "bri": {
+                  "description": "Brightness level. Accepts 255 as well",
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 254
+                },
+                "alert": {
+                  "description": "The alert effect, which is a temporary change to the bulb’s state.'l' of lselect stands for loop. Presence of lselect ignores transitiontime",
+                  "type": "string",
+                  "enum": ["lselect", "none", "select"]
+                },
+                "transisiontime": {
+                  "description": "The duration of the transition from the light’s current state to the new state.",
+                  "type": "integer",
+                  "unit": "100ms",
+                  "minimum": 0,
+                  "maximum": 65535
+                },
+                "bri_inc": {
+                  "description": "Increments or decrements the value of the brightness.  bri_inc is ignored if the bri attribute is provided.",
+                  "type": "integer",
+                  "minimum": -254,
+                  "maximum": 254
+                }
+              }
+            },
+            "output": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "success": {
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "/lights/4/state/bri_inc": {
+                            "description": "Increments or decrements the value of the brightness.  bri_inc is ignored if the bri attribute is provided.",
+                            "type": "integer",
+                            "minimum": -254,
+                            "maximum": 254
+                          }
+                        }
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "/lights/4/state/on": {
+                            "description": "On/Off state of the light. On=true, Off=false",
+                            "type": "boolean"
+                          }
+                        }
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "/lights/4/state/bri": {
+                            "description": "brightness level",
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 254
+                          }
+                        }
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "/lights/4/state/alert": {
+                            "description": "The alert effect, which is a temporary change to the bulb’s state.'l' of lselect stands for loop.",
+                            "type": "string",
+                            "enum": ["lselect", "none", "select"]
+                          }
+                        }
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "/lights/4/state/transisiontime": {
+                            "description": "The duration of the transition from the light’s current state to the new state.",
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 65535
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "forms": [
+              {
+                "href": "/state",
+                "contentType": "application/json",
+                "htv:methodName": "PUT",
+                "op": ["invokeaction"]
+              }
+            ],
+            "idempotent": false,
+            "safe": false
+          }
+        }
+      }
+    },
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe16",
+    "_type": "plugin",
+    "name": "EdgeX Foundry",
+    "uid": "edgexfoundry",
+    "description": "A common open platform unifying the IoT Edge.",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "__v": 0,
+    "display": {
+      "imageUrl": "https://www.iotworldtoday.com/files/2017/10/logo_edgex_x-4.png",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "beta",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://edgexfoundry.org",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-edgexfoundry/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe1c",
+    "_type": "plugin",
+    "name": "Kaa",
+    "description": "The Kaa Cloud is an IoT platform-as-a-service (PaaS) accessible for all the registered users with KaaID.",
+    "uid": "kaa",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2020-06-15T00:32:19.620Z",
+    "display": {
+      "imageUrl": "https://avatars0.githubusercontent.com/u/6984613?s=400&v=4",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://www.kaaproject.org",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-kaa/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe13",
+    "_type": "plugin",
+    "name": "ROS",
+    "description": "ROS (Robot Operating System) is an open-source, meta-operating system for your robot.",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2021-03-31T12:23:21.036Z",
+    "__v": 0,
+    "display": {
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Robot_Operating_System_logo.svg/1200px-Robot_Operating_System_logo.svg.png",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "uid": "ros",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://ros.org",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-ros/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 3
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe23",
+    "_type": "plugin",
+    "type": "thing-model",
+    "uid": "eur-pallet",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "name": "EUR-pallet",
+    "description": "The standard European pallet as specified by the European Pallet Association (EPAL). Pallets conforming to the standardization are eligible for the European Pallet Pool (EPP), the system which allows for an exchange as pallet for pallet .The EUR/EPAL-pallet is 1,200 mm × 800 mm × 144 mm (47.2 in × 31.5 in × 5.7 in); it is a four-way pallet made of wood that is nailed with 78 special nails in a prescribed pattern. The weight of a EUR/EPAL-pallet (EPAL 1) is approx. 25 kg. [1] Around 450-500 million EUR-pallets are in circulation.",
+    "keywords": ["asterisc", "wot", "thing-model"],
+    "markdown": "## EUR-pal.The EUR-pallet, also Euro-pallet or EPAL-pallet, is the standard European pallet as specified by the European Pallet Association (EPAL). Pallets conforming to the standardization are eligible for the European Pallet Pool (EPP), the system which allows for an exchange as pallet for pallet .The EUR/EPAL-pallet is 1,200 mm × 800 mm × 144 mm (47.2 in × 31.5 in × 5.7 in); it is a four-way pallet made of wood that is nailed with 78 special nails in a prescribed pattern. The weight of a EUR/EPAL-pallet (EPAL 1) is approx. 25 kg. [1] Around 450-500 million EUR-pallets are in circulation.",
+    "meta": {
+      "topic": ["pallet"],
+      "labels": ["EUR", "EPAL"],
+      "version": "1.0.0",
+      "category": "official",
+      "links": [
+        {
+          "rel": "asterisc-docs",
+          "href": "https://asterisc.io/docs",
+          "type": "text/html"
+        }
+      ]
+    },
+    "display": {
+      "imageUrl": "https://www.medewo.com/de-de/media/catalog/product/cache/6/image/700x429/9df78eab33525d08d6e5fb8d27136e95/1/8/181J07-L_HB_4.png",
+      "color": ""
+    },
+    "status": "beta",
+    "category": "official",
+    "version": "1.0.0",
+    "plugin": {
+      "td": {
+        "title": "EUR-pallet",
+        "id": "urn:dev:ops:32473-EUR-pallet",
+        "description": "The standard European pallet measuring 1,200 mm × 800 mm × 144 mm (47.2 in × 31.5 in × 5.7 in)",
+        "@context": [
+          "https://www.w3.org/2019/wot/td/v1",
+          {
+            "@language": "en"
+          }
+        ],
+        "securityDefinitions": {
+          "nosec_sc": {
+            "scheme": "nosec"
+          }
+        },
+        "security": ["nosec_sc"],
+        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws",
+        "properties": {
+          "length": {
+            "description": "The length of the pallet in (mm)",
+            "const": 1200,
+            "unit": "mm",
+            "readOnly": true
+          },
+          "width": {
+            "description": "The width of the pallet in (mm)",
+            "const": 800,
+            "unit": "mm",
+            "readOnly": true
+          },
+          "height": {
+            "description": "The height of the pallet in (mm)",
+            "const": 144,
+            "unit": "mm",
+            "readOnly": true
+          }
+        }
+      }
+    },
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe19",
+    "_type": "plugin",
+    "name": "Azure IoT",
+    "description": "Azure IoT is a collection of managed and platform services across edge and cloud that connect, monitor, and control billions of IoT assets.",
+    "uid": "azure-iot",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2020-06-15T00:32:19.620Z",
+    "display": {
+      "imageUrl": "https://img.stackshare.io/service/6353/Microsoft.VisualStudio.Services.Icons.Default",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://azure.microsoft.com/en-us/overview/iot",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-azure-iot/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe1a",
+    "_type": "plugin",
+    "name": "Google Cloud IoT Core",
+    "description": "Google Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices.",
+    "uid": "google-cloud-iot-core",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2021-03-29T19:04:46.146Z",
+    "display": {
+      "imageUrl": "https://p.kindpng.com/picc/s/298-2985925_google-cloud-iot-core-icon-hd-png-download.png",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://cloud.google.com/iot-core",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-google-cloud-iot-core/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 1
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe1d",
+    "_type": "plugin",
+    "name": "AWS IoT Core",
+    "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices.",
+    "uid": "aws-iot-core",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2021-04-11T13:11:15.843Z",
+    "display": {
+      "imageUrl": "https://img.stackshare.io/service/7996/aws-iot_20copy.png",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "requested",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://aws.amazon.com/iot-core",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-aws-iot-core/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 10
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe20",
+    "_type": "plugin",
+    "type": "thing-model",
+    "uid": "hue-daylight-sensor",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "name": "HUE Daylight Sensor",
+    "description": "TD of a HUE Daylight Sensor",
+    "keywords": ["asterisc", "wot", "thing-model"],
+    "markdown": "## Philips HUE Software-based Daylight Sensor\r\n\r\nThis is a TD of a daylight sensor that runs on a Philips HUE Bridge and that can be used to learn whether there is daylight in the Bridge's location or not. It is based on the GPS location.\r\n\r\n### Get it running\r\n\r\n* Follow the Philips HUE in-app guide to get your bridge started.\r\n* Follow the [developer page](https://developers.meethue.com/develop/get-started-2/) to get an API Key\r\n* The base URI is using our API Key and Sensor number, replace them with yours:\r\n  * Look for the base URI in the TD\r\n  * Replace the part between `/api/` and `/sensors/` with your API key.\r\n  * This TD is representing the sensor number 1. You should replace the part after `/sensors/` with your sensor's number.\r\n  * This TD uses `Philips-hue` as hostname, in case you have multiple HUE Bridges, you will need to change this in the base URI as well\r\n",
+    "meta": {
+      "topic": ["sensor"],
+      "labels": ["Philips", "HUE", "Sensor"],
+      "version": "1.0.0",
+      "category": "official",
+      "links": [
+        {
+          "rel": "asterisc-docs",
+          "href": "https://asterisc.io/docs",
+          "type": "text/html"
+        }
+      ]
+    },
+    "display": {
+      "imageUrl": "https://www.led1.de/shop/images/thumbnail/produkte/medium/Produktbilder/Philips_Bewegungsmelder.jpg",
+      "color": ""
+    },
+    "status": "beta",
+    "category": "official",
+    "version": "1.0.0",
+    "plugin": {
+      "td": {
+        "title": "Hue Daylight Sensor",
+        "description": "A virtual sensor that provides daylight information based on location information",
+        "id": "urn:dev:ops:32473-HueDaylight-1234",
+        "@context": [
+          "https://www.w3.org/2019/wot/td/v1",
+          {
+            "@language": "en"
+          }
+        ],
+        "securityDefinitions": {
+          "nosec_sc": {
+            "scheme": "nosec"
+          }
+        },
+        "security": ["nosec_sc"],
+        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws/sensors/1",
+        "properties": {
+          "sensorInformation": {
+            "description": "Daylight Sensor information from the bridge",
+            "type": "object",
+            "properties": {
+              "state": {
+                "type": "object",
+                "readOnly": true,
+                "writeOnly": false,
+                "properties": {
+                  "daylight": {
+                    "description": "Whether there is daylight or not",
+                    "type": "boolean"
+                  },
+                  "lastupdated": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "config": {
+                "readOnly": false,
+                "writeOnly": false,
+                "type": "object",
+                "properties": {
+                  "on": {
+                    "type": "boolean"
+                  },
+                  "configured": {
+                    "type": "boolean"
+                  },
+                  "sunriseoffset": {
+                    "type": "integer"
+                  },
+                  "sunsetoffset": {
+                    "type": "integer"
+                  }
+                }
+              },
+              "name": {
+                "type": "string",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "type": {
+                "type": "string",
+                "const": "Daylight",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "modelid": {
+                "type": "string",
+                "const": "PHDL00",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "manufacturername": {
+                "type": "string",
+                "const": "Philips",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "swversion": {
+                "type": "string",
+                "readOnly": true
+              }
+            },
+            "forms": [
+              {
+                "href": "",
+                "contentType": "application/json",
+                "htv:methodName": "GET",
+                "op": ["readproperty"]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe1e",
+    "_type": "plugin",
+    "name": "Blynk",
+    "description": "A hardware-agnostic IoT platform.",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "__v": 0,
+    "uid": "blynk",
+    "display": {
+      "imageUrl": "https://avatars.githubusercontent.com/u/11541426?s=400&v=4",
+      "color": "#4BD19B"
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "beta",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://blynk.io",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-blynk/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe21",
+    "_type": "plugin",
+    "type": "thing-model",
+    "uid": "hue-dimmer-switch",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "name": "HUE Dimmer Switch",
+    "description": "TD of a HUE Dimmer Switch",
+    "keywords": ["asterisc", "wot", "thing-model"],
+    "markdown": "## Philips HUE Dimmer Switch\r\n\r\nThis is a TD of a dimmer switch that connects to a Philips HUE Bridge and that can be used to turn on and off different HUE Lights.\r\n\r\n### Get it running\r\n\r\n* Follow the Philips HUE in-app guide to get your bridge started.\r\n* Follow the [developer page](https://developers.meethue.com/develop/get-started-2/) to get an API Key\r\n* The base URI is using our API Key and Sensor number, replace them with yours:\r\n  * Look for the base URI in the TD\r\n  * Replace the part between `/api/` and `/sensors/` with your API key.\r\n  * This TD is representing the sensor number 2. You should replace the part after `/sensors/` with your sensor's number.\r\n  * This TD uses `Philips-hue` as hostname, in case you have multiple HUE Bridges, you will need to change this in the base URI as well\r\n",
+    "meta": {
+      "topic": ["lighting"],
+      "labels": ["Philips", "HUE", "Switch"],
+      "version": "1.0.0",
+      "category": "official",
+      "links": [
+        {
+          "rel": "asterisc-docs",
+          "href": "https://asterisc.io/docs",
+          "type": "text/html"
+        }
+      ]
+    },
+    "display": {
+      "imageUrl": "https://www.assets.signify.com/is/image/PhilipsLighting/62427d12120d4c44bbccac2400a9cb0e",
+      "color": ""
+    },
+    "status": "beta",
+    "category": "official",
+    "version": "1.0.0",
+    "plugin": {
+      "td": {
+        "title": "Hue Dimmer Switch",
+        "description": "A controller to switch off and on all the lights or to dim them",
+        "id": "urn:dev:ops:32473-HueSwitch-1234",
+        "@context": [
+          "https://www.w3.org/2019/wot/td/v1",
+          {
+            "@language": "en"
+          }
+        ],
+        "securityDefinitions": {
+          "nosec_sc": {
+            "scheme": "nosec"
+          }
+        },
+        "security": ["nosec_sc"],
+        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws/sensors/2",
+        "properties": {
+          "switchInformation": {
+            "description": "Switch information from the bridge with the given id.",
+            "type": "object",
+            "properties": {
+              "state": {
+                "type": "object",
+                "description": "When the switch last pressed and what button was pressed and how it was pressed",
+                "readOnly": true,
+                "writeOnly": false,
+                "properties": {
+                  "buttonevent": {
+                    "description": "*2 means short release, * means long release. 1* is the turn on button, 2* is the brighten button, 3* is the dim button, 4* is the turn off button",
+                    "type": "integer",
+                    "enum": [1002, 1003, 2002, 2003, 3002, 3003, 4002, 4003]
+                  },
+                  "lastupdated": {
+                    "type": "string",
+                    "format": "date-time"
+                  }
+                }
+              },
+              "config": {
+                "type": "object",
+                "properties": {
+                  "on": {
+                    "type": "boolean",
+                    "readOnly": false,
+                    "writeOnly": false
+                  },
+                  "battery": {
+                    "type": "integer",
+                    "maximum": 100,
+                    "readOnly": false,
+                    "writeOnly": false
+                  },
+                  "reachable": {
+                    "type": "boolean",
+                    "readOnly": false,
+                    "writeOnly": false
+                  }
+                }
+              },
+              "name": {
+                "type": "string",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "type": {
+                "type": "string",
+                "const": "ZLLSwitch",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "modelid": {
+                "type": "string",
+                "const": "RWL021",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "manufacturername": {
+                "type": "string",
+                "const": "Philips",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "swversion": {
+                "type": "string",
+                "readOnly": true
+              },
+              "uniqueid": {
+                "type": "string",
+                "const": "00:17:88:01:04:ec:52:d2-02-fc00",
+                "readOnly": true,
+                "writeOnly": false
+              }
+            },
+            "forms": [
+              {
+                "href": "",
+                "contentType": "application/json",
+                "htv:methodName": "GET",
+                "op": ["readproperty"]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe15",
+    "_type": "plugin",
+    "name": "Particle",
+    "description": "Particle offers an array of IoT essentials—hardware, connectivity, and the platform used to run the connected devices.",
+    "uid": "particle",
+    "createdAt": "2020-06-15T00:32:19.620Z",
+    "updatedAt": "2020-06-15T00:32:19.620Z",
+    "display": {
+      "imageUrl": "https://images.ctfassets.net/ity165ek7v1z/2Mcm2cK8p2WsU8SauYiy0i/b135516f604b90c1cbf5d1f992824199/meta-og-image.jpg",
+      "color": ""
+    },
+    "type": "binding-template",
+    "version": "1.0.0",
+    "category": "official",
+    "status": "beta",
+    "links": [
+      {
+        "rel": "website",
+        "href": "https://particle.io",
+        "type": "text/html"
+      },
+      {
+        "rel": "asterisc-docs",
+        "href": "https://asterisc.io/docs",
+        "type": "text/html"
+      },
+      {
+        "rel": "readme",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-particle/readme.md",
+        "type": "text/html"
+      }
+    ],
+    "keywords": ["asterisc", "wot", "binding-template"],
+    "markdown": "# binding-template",
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "606c16c0ad06bcbaff0ebe1f",
+    "_type": "plugin",
+    "type": "thing-model",
+    "uid": "hue-bridge-sample",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "name": "HUE Bridge Simple",
+    "description": "TD of a HUE Bridge, configured for lights, dimmer switch and a software-based daylight sensor",
+    "keywords": ["asterisc", "wot", "thing-model"],
+    "markdown": "## Philips HUE Bridge\r\n\r\nThis bridge has been configured using the white light starter pack that contains 3 white lights and a switch. \r\n\r\n### Get it running\r\n\r\n* Follow the Philips HUE in-app guide to get your bridge started.\r\n* Follow the [developer page](https://developers.meethue.com/develop/get-started-2/) to get an API Key\r\n* The base URI is using our API Key, replace it with yours:\r\n  * Look for the base URI in the TD\r\n  * Replace the part after `/api/` with your API key.\r\n  * This TD uses `Philips-hue` as hostname, in case you have multiple HUE Bridges, you will need to change this in the base URI as well",
+    "meta": {
+      "topic": ["lighting"],
+      "labels": ["Philips", "HUE"],
+      "version": "1.0.0",
+      "category": "official",
+      "links": [
+        {
+          "rel": "asterisc-docs",
+          "href": "https://asterisc.io/docs",
+          "type": "text/html"
+        }
+      ]
+    },
+    "display": {
+      "imageUrl": "https://banner2.cleanpng.com/20181108/kih/kisspng-philips-hue-bridge-2-hardwareelectronic-homekit-5be448ab9372a4.318963001541687467604.jpg",
+      "color": ""
+    },
+    "status": "beta",
+    "category": "official",
+    "version": "1.0.0",
+    "plugin": {
+      "td": {
+        "title": "Hue Bridge",
+        "id": "urn:dev:ops:32473-HueBridge-1234",
+        "description": "HTTP to Zigbee bridge that can be used to control Hue lights and read the switch state. The different devices have their own TDs",
+        "@context": [
+          "https://www.w3.org/2019/wot/td/v1",
+          {
+            "@language": "en"
+          }
+        ],
+        "securityDefinitions": {
+          "nosec_sc": {
+            "scheme": "nosec"
+          }
+        },
+        "security": ["nosec_sc"],
+        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws",
+        "properties": {
+          "configuration": {
+            "title": "Configuration Settings",
+            "description": "Returns list of all configuration elements in the bridge. Note all times are stored in UTC.",
+            "type": "object",
+            "properties": {
+              "name": {
+                "description": "Name of the bridge. This is also its uPnP name, so will reflect the actual uPnP name after any conflicts have been resolved.",
+                "type": "string",
+                "minLength": 4,
+                "maxLength": 16,
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "whitelist": {
+                "type": "object",
+                "description": "A list of whitelisted user IDs.",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "apiversion": {
+                "type": "object",
+                "description": "The version of the hue API in the format <major>.<minor>.<patch>, for example 1.2.1",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "ipadress": {
+                "type": "string",
+                "description": "IP address of the bridge.",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "macadress": {
+                "type": "string",
+                "description": "MAC address of the bridge.",
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "netmask": {
+                "type": "string",
+                "description": "Netmask of the bridge.",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "dhcp": {
+                "type": "boolean",
+                "description": "Whether the IP address of the bridge is obtained with DHCP.",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "UTC": {
+                "type": "string",
+                "description": "Current time stored on the bridge.",
+                "readOnly": false,
+                "writeOnly": false
+              },
+              "modelid": {
+                "description": "This parameter uniquely identifies the hardware model of the bridge (BSB001, BSB002).",
+                "type": "string",
+                "minLength": 6,
+                "maxLength": 32,
+                "readOnly": true,
+                "writeOnly": false
+              },
+              "brigdeid": {
+                "description": "The unique bridge id. This is currently generated from the bridge Ethernet mac address.",
+                "type": "string",
+                "minLength": 6,
+                "maxLength": 32,
+                "readOnly": true,
+                "writeOnly": false
+              }
+            },
+            "forms": [
+              {
+                "href": "/config",
+                "contentType": "application/json",
+                "htv:methodName": "GET",
+                "op": ["readproperty"]
+              }
+            ],
+            "readOnly": true,
+            "writeOnly": false
+          },
+          "all_lights": {
+            "title": "Lights",
+            "description": "Gets a detailed list of all lights that have been discovered by the bridge.",
+            "type": "object",
+            "properties": {},
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "description": "Details the state of the light, see the state table below for more details.",
+                  "type": "object",
+                  "properties": {
+                    "on": {
+                      "description": "On/Off state of the light. On=true, Off=false",
+                      "type": "boolean",
+                      "readOnly": false,
+                      "writeOnly": false
+                    },
+                    "alert": {
+                      "description": "The alert effect, which is a temporary change to the bulb’s state.'l' of lselect stands for loop.",
+                      "type": "string",
+                      "enum": ["none", "select", "lselect"],
+                      "readOnly": false,
+                      "writeOnly": false
+                    },
+                    "bri": {
+                      "description": "brightness level",
+                      "type": "integer",
+                      "minimum": 0,
+                      "maximum": 254,
+                      "readOnly": false,
+                      "writeOnly": false
+                    },
+                    "reachable": {
+                      "description": "Indicates if a light can be reached by the bridge",
+                      "type": "boolean",
+                      "readOnly": true,
+                      "writeOnly": false
+                    }
+                  }
+                },
+                "type": {
+                  "description": "A fixed name describing the type of light",
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "name": {
+                  "description": "A unique, editable name given to the light",
+                  "type": "string",
+                  "readOnly": false,
+                  "writeOnly": false
+                },
+                "modelid": {
+                  "description": "The hardware model of the light.",
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "swversion": {
+                  "description": "An identifier for the software version running on the light",
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              }
+            },
+            "forms": [
+              {
+                "href": "/lights",
+                "contentType": "application/json",
+                "htv:methodName": "GET",
+                "op": ["readproperty"]
+              }
+            ],
+            "readOnly": true,
+            "writeOnly": false
+          },
+          "all_sensors": {
+            "title": "All Sensors",
+            "description": "Gets a list of all sensors that have been added to the bridge.",
+            "type": "object",
+            "readOnly": true,
+            "writeOnly": false,
+            "additionalProperties": {
+              "type": "object",
+              "properties": {
+                "state": {
+                  "type": "object",
+                  "properties": {
+                    "lastupdated": {
+                      "type": "string",
+                      "writeOnly": true
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "config": {
+                  "type": "object",
+                  "properties": {
+                    "on": {
+                      "type": "boolean",
+                      "writeOnly": false,
+                      "readOnly": false
+                    },
+                    "additionalProperties": true
+                  }
+                },
+                "name": {
+                  "type": "string",
+                  "writeOnly": false,
+                  "readOnly": false
+                },
+                "type": {
+                  "type": "string",
+                  "readOnly": true
+                },
+                "modelid": {
+                  "type": "string",
+                  "readOnly": true
+                },
+                "manufacturername": {
+                  "type": "string",
+                  "readOnly": true
+                },
+                "swversion": {
+                  "type": "string",
+                  "readOnly": true
+                },
+                "uniqueid": {
+                  "type": "string",
+                  "readOnly": true
+                }
+              }
+            },
+            "forms": [
+              {
+                "href": "/sensors",
+                "contentType": "application/json",
+                "htv:methodName": "GET",
+                "op": ["readproperty"]
+              }
+            ]
+          },
+          "get_new_sensors": {
+            "title": "Get New Sensors",
+            "description": "Gets all new sensors since the last scan.",
+            "output": {
+              "type": "object",
+              "properties": {
+                "lastscan": {
+                  "type": "string"
+                }
+              },
+              "additionalProperties": {
+                "type": "object",
+                "properties": {
+                  "name": {
+                    "type": "string"
+                  }
+                }
+              }
+            },
+            "forms": [
+              {
+                "href": "/sensors/new",
+                "contentType": "application/json",
+                "htv:methodName": "GET",
+                "op": ["readproperty"]
+              }
+            ],
+            "safe": false,
+            "idempotent": false
+          }
+        },
+        "actions": {
+          "search_new_sensors": {
+            "title": "Search New Sensor",
+            "description": "Starts a search for new sensors.",
+            "output": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "properties": {
+                  "success": {
+                    "type": "object",
+                    "properties": {
+                      "/sensors": {
+                        "type": "string"
+                      }
+                    }
+                  }
+                }
+              }
+            },
+            "forms": [
+              {
+                "href": "/sensors",
+                "contentType": "application/json",
+                "htv:methodName": "POST",
+                "op": ["invokeaction"]
+              }
+            ],
+            "safe": false,
+            "idempotent": false
+          },
+          "search_new_lights": {
+            "title": "Search for New Lights",
+            "description": "Starts searching for new lights.",
+            "input": {
+              "type": "object",
+              "properties": {
+                "deviceid": {
+                  "type": "array",
+                  "maxItems": 10,
+                  "writeOnly": true
+                }
+              }
+            },
+            "output": {
+              "type": "object",
+              "properties": {
+                "success": {
+                  "type": "object",
+                  "writeOnly": false,
+                  "readOnly": true
+                }
+              }
+            },
+            "forms": [
+              {
+                "href": "/lights",
+                "contentType": "application/json",
+                "htv:methodName": "POST",
+                "op": ["invokeaction"]
+              }
+            ],
+            "idempotent": false,
+            "safe": true
+          }
+        }
+      }
+    },
+    "rating": 4.5,
+    "upvotes": 0
+  },
+  {
+    "_id": "6071f6b38f19894c319b2423",
+    "_type": "plugin",
+    "type": "thing-model",
+    "uid": "ncd-environment-iot-sensor",
+    "createdAt": "2020-06-15T00:15:06.052Z",
+    "updatedAt": "2021-04-11T13:11:02.128Z",
+    "name": "Industrial IoT Long Range Wireless Environmental Temperature Humidity Pressure Air Quality Sensor",
+    "description": "TM of an NCD Industrial Iot Long Range Wireless Environmental Sensor",
+    "keywords": ["asterisc", "wot", "thing-model"],
+    "markdown": "## Industrial IoT Long Range Wireless Environmental Temperature Humidity Pressure Air Quality Sensor\n\n### Feature Overview\n\n### Industrial Grade Environment IoT Sensor for Monitoring\n\n- Temperature, Pressure, Humidity, Gas Resistance & Indoor Air Quality\n- Operating Temperature Range \\*40 to +85 °C\n- Operating Pressure Range 300 to 1100% hPa\n- Operating Humidity Range 0 to 100% r.H.\n- Gas Resistance Output in Ohms\n- Inbuilt Indoor Air Quality Metric Calculation with a 0\\*100 Range\n- Configurable Heater Temperature & Duration for Gas Resistance Sampling\n- 2 Mile Range with 900MHz On\\*Board Antenna\n- Superior LOS Range of up to 28 miles with 900MHz High\\*Gain Antennas\n- Interface to Raspberry Pi, Microsoft Azure, Arduino and More\n- Example Software for Visual Studio and LabVIEW\n- Wireless Mesh Networking using DigiMesh®\n- Power Efficient Built\\*in Sleep mode\n- Secure Transmission using AES\\*128 Encryption\n",
+    "meta": {
+      "topic": ["lighting"],
+      "labels": ["Philips", "HUE", "LED"],
+      "version": "1.0.0",
+      "category": "official",
+      "links": [
+        {
+          "rel": "asterisc-docs",
+          "href": "https://asterisc.io/docs",
+          "type": "text/html"
+        },
+        {
+          "rel": "website",
+          "href": "https://store.ncd.io/",
+          "type": "text/html"
+        },
+        {
+          "rel": "buy",
+          "href": "https://store.ncd.io/product/industrial-iot-long-range-wireless-environmental-temperature-humidity-pressure-air-quality-sensor/",
+          "type": "text/html"
+        }
+      ]
+    },
+    "display": {
+      "imageUrl": "https://media.ncd.io/sites/2/20210319141429/Enviro-Air-Quality-Sensor.jpg",
+      "color": ""
+    },
+    "status": "requested",
+    "category": "official",
+    "version": "1.0.0",
+    "plugin": {
+      "td": {}
+    },
+    "rating": 4.5,
+    "upvotes": 1
+  },
+  {
+    "uid": "alert-table-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Alert table",
+    "description": "Alert table widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/alert-table"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "alert-table"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "andon-board-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Andon board",
+    "description": "Andon board widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/andon-board"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/andon-board/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "andon-board"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "button-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Button",
+    "description": "Button widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/button"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/button/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "button"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "chart-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Chart",
+    "description": "Chart widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/chart"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/chart/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "chart"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "checklist-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Checklist",
+    "description": "Checklist widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/checklist/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/checklist/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/checklist"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/checklist/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "checklist"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "floorplan-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Floorplan",
+    "description": "Floorplan widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/floorplan/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/floorplan/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/floorplan"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/floorplan/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "floorplan"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "knob-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Knob",
+    "description": "Knob widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/knob/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/knob/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/knob"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/knob/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "knob"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "map-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Map",
+    "description": "Map widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/map/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/map/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/map"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/map/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "map"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "markdown-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Markdown",
+    "description": "Markdown widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/markdown/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/markdown/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/markdown"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/markdown/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "markdown"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "slider-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Slider",
+    "description": "Slider widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/slider/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/slider/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/slider"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/slider/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "slider"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "sparkline-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Sparkline",
+    "description": "Sparkline widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/sparkline/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/sparkline/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/sparkline"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/sparkline/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "sparkline"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "stepper-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Stepper",
+    "description": "Stepper widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/stepper/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/stepper/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/stepper"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/stepper/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "stepper"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "switch-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Switch",
+    "description": "Switch widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/switch/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/switch/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/switch"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/switch/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "switch"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "table-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Table",
+    "description": "Table widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/table/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/table/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/table"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/table/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "table"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "text-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Text",
+    "description": "Text widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/text/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/text/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/text"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/text/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "text"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "trackmap-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Trackmap",
+    "description": "Trackmap widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/trackmap/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/trackmap/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/trackmap"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/trackmap/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "trackmap"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "web-content-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Web content",
+    "description": "Web content widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-content/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-content/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/web-content"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-content/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "web-content"],
+    "author": "asterisc",
+    "license": "MIT"
+  },
+  {
+    "uid": "web-form-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Web form",
+    "description": "Web form widget for Asterisc",
+    "assets": {
+      "logo": {
+        "light": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-form/src/assets/logos/logo-light.png",
+        "dark": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-form/src/assets/logos/logo-dark.png"
+      },
+      "images": [
+        {
+          "name": "Demo",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+        },
+        {
+          "name": "Options",
+          "path": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/alert-table/src/assets/images/options.png"
+        }
+      ]
+    },
+    "links": [
+      {
+        "name": "Homepage",
+        "rel": "homepage",
+        "href": "https://github.com/asterisc-io/plugins/tree/main/widgets/web-form"
+      },
+      {
+        "name": "Repository",
+        "rel": "repository",
+        "href": "https://github.com/asterisc-io/plugins"
+      },
+      {
+        "name": "MIT License",
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asterisc-io/plugins/main/widgets/web-form/LICENSE"
+      }
+    ],
+    "keywords": ["asterisc", "plugin", "widget", "web-form"],
+    "author": "asterisc",
+    "license": "MIT"
+  }
+]

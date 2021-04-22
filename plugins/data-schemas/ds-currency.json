@@ -1,0 +1,11 @@
+{
+  "_id": "5f779306a1ace363f341ce17",
+  "_type": "data-schema",
+  "name": "Currency",
+  "description": "A general data schema for currency",
+  "display": {
+    "color": "#707070",
+    "imageUrl": ""
+  },
+  "accountId": "605a25d662071a096758d0b9"
+}

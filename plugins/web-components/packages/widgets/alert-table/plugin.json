@@ -1,0 +1,40 @@
+{
+  "id": "alert-table-widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "name": "Alert table",
+  "description": "Alert table widget for Asterisc",
+  "assets": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/alert-table/src/assets/logos/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/alert-table/src/assets/logos/logo-dark.png"
+    },
+    "images": [
+      {
+        "name": "Demo",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+      },
+      {
+        "name": "Options",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/alert-table/src/assets/images/options.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "Homepage",
+      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/alert-table"
+    },
+    {
+      "name": "Repository",
+      "url": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "name": "MIT License",
+      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/alert-table/LICENSE"
+    }
+  ],
+  "keywords": ["asterisc", "plugin", "widget", "alert-table"],
+  "author": "asterisc",
+  "license": "MIT"
+}

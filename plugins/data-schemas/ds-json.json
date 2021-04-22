@@ -1,0 +1,11 @@
+{
+  "_id": "5f7794454f92bb63f32506b0",
+  "_type": "data-schema",
+  "name": "JSON",
+  "description": "A general data schema for arbitrary JSON data",
+  "display": {
+    "color": "#707070",
+    "imageUrl": ""
+  },
+  "accountId": "605a25d662071a096758d0b9"
+}

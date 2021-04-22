@@ -1,0 +1,11 @@
+{
+  "_id": "5f7794964f92bb63f32506b3",
+  "_type": "data-schema",
+  "name": "URL",
+  "description": "A general data schema for URLs",
+  "display": {
+    "color": "#707070",
+    "imageUrl": ""
+  },
+  "accountId": "605a25d662071a096758d0b9"
+}

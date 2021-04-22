@@ -1,0 +1,11 @@
+{
+  "_id": "5f7793f04f92bb63f32506ad",
+  "_type": "data-schema",
+  "name": "Geolocation",
+  "description": "A general data schema for geolocation",
+  "display": {
+    "color": "#707070",
+    "imageUrl": ""
+  },
+  "accountId": "605a25d662071a096758d0b9"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "map-widget",
+  "version": "1.0.0",
+  "type": "widget",
+  "name": "Map",
+  "description": "Map widget for Asterisc",
+  "assets": {
+    "logo": {
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/map/src/assets/logos/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/map/src/assets/logos/logo-dark.png"
+    },
+    "images": [
+      {
+        "name": "Demo",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/alert-table/src/assets/images/demo.png"
+      },
+      {
+        "name": "Options",
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/alert-table/src/assets/images/options.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "Homepage",
+      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/map"
+    },
+    {
+      "name": "Repository",
+      "url": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "name": "MIT License",
+      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/map/LICENSE"
+    }
+  ],
+  "keywords": ["asterisc", "plugin", "widget", "map"],
+  "author": "asterisc",
+  "license": "MIT"
+}

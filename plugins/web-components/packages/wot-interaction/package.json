@@ -1,0 +1,11 @@
+{
+  "name": "@asteriscio/wot-interaction",
+  "version": "0.0.0",
+  "main": "src/index.js",
+  "dependencies": {
+    "hybrids": "^5.2.2"
+  },
+  "devDependencies": {
+    "wot-typescript-definitions": "*"
+  }
+}

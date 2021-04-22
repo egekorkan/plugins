@@ -1,0 +1,11 @@
+{
+  "_id": "5f77945e4f92bb63f32506b1",
+  "_type": "data-schema",
+  "name": "Percentage",
+  "description": "A general data schema for percentages",
+  "display": {
+    "color": "#707070",
+    "imageUrl": ""
+  },
+  "accountId": "605a25d662071a096758d0b9"
+}
