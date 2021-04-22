@@ -5,7 +5,6 @@
   "name": "Knob",
   "description": "Knob widget for Asterisc",
   "keywords": ["asterisc", "plugin", "widget", "knob"],
-  "author": "Asterisc GmbH",
   "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/index.js",
   "links": [
     {
@@ -14,9 +13,14 @@
       "type": "image/svg"
     },
     {
-      "title": "Screenshot",
-      "alt": "Screenshot of the knob widget for the Asterisc Platform",
-      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      "rel": "screenshot",
+      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+      "type": "image/png"
+    },
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "type": "text/html"
     },
     {
       "rel": "homepage",

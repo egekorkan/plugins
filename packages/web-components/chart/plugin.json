@@ -5,13 +5,17 @@
   "name": "Chart",
   "description": "Chart widget for Asterisc",
   "keywords": ["asterisc", "plugin", "widget", "chart"],
-  "author": "Asterisc GmbH",
   "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/index.js",
   "links": [
     {
       "rel": "icon",
       "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/assets/icon.svg",
       "type": "image/svg"
+    },
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "type": "text/html"
     },
     {
       "rel": "homepage",

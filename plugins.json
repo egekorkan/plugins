@@ -1536,9 +1536,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the button widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1605,9 +1605,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the checklist widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1642,9 +1642,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the alert table widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1679,9 +1679,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the knob widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1716,9 +1716,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the map widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1753,9 +1753,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the markdown widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1790,9 +1790,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the slider widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1827,9 +1827,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the sparkline widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1864,9 +1864,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the stepper widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1901,9 +1901,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the switch widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1938,9 +1938,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the table widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -1975,9 +1975,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the text widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",
@@ -2012,9 +2012,9 @@
         "type": "image/svg"
       },
       {
-        "title": "Screenshot",
-        "alt": "Screenshot of the web content widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "rel": "screenshot",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "rel": "homepage",

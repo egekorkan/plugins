@@ -61,7 +61,8 @@ Here's an example of a plugin:
     "images": [
       {
         "name": "Demo",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png",
+        "type": "image/png"
       },
       {
         "name": "Options",
