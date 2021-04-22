@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://asterisc.io" target="_blank" >
-    <img height="100" src="src/assets/icon.svg" style="margin-bottom: 12px">
+    <img height="50" src="src/assets/icon.svg" style="margin: 12px 0px">
   </a>
 
   <h1>markdown-widget</h1>
