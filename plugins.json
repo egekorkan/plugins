@@ -1521,43 +1521,6 @@
     "upvotes": 1
   },
   {
-    "uid": "eventlog-widget",
-    "version": "1.0.0",
-    "type": "widget",
-    "name": "Alert table",
-    "description": "Alert table widget for Asterisc",
-    "keywords": ["asterisc", "plugin", "widget", "eventlog"],
-    "author": "Asterisc GmbH",
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/index.js",
-    "links": [
-      {
-        "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/icon.svg",
-        "type": "image/svg"
-      },
-      {
-        "title": "Screenshot",
-        "alt": "Screenshot of the alert table widget for the Asterisc Platform",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
-      },
-      {
-        "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/eventlog",
-        "type": "text/html"
-      },
-      {
-        "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
-      },
-      {
-        "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/LICENSE",
-        "type": "text/html"
-      }
-    ]
-  },
-  {
     "uid": "button-widget",
     "version": "1.0.0",
     "type": "widget",
@@ -1659,6 +1622,43 @@
       {
         "rel": "license",
         "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/LICENSE",
+        "type": "text/html"
+      }
+    ]
+  },
+  {
+    "uid": "eventlog-widget",
+    "version": "1.0.0",
+    "type": "widget",
+    "name": "Alert table",
+    "description": "Alert table widget for Asterisc",
+    "keywords": ["asterisc", "plugin", "widget", "eventlog"],
+    "author": "Asterisc GmbH",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/index.js",
+    "links": [
+      {
+        "rel": "icon",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/icon.svg",
+        "type": "image/svg"
+      },
+      {
+        "title": "Screenshot",
+        "alt": "Screenshot of the alert table widget for the Asterisc Platform",
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/eventlog",
+        "type": "text/html"
+      },
+      {
+        "rel": "repository",
+        "href": "https://github.com/asteriscio/plugins",
+        "type": "text/html"
+      },
+      {
+        "rel": "license",
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/LICENSE",
         "type": "text/html"
       }
     ]

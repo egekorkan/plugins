@@ -1,40 +1,32 @@
 {
-  "id": "chart-widget",
+  "uid": "chart-widget",
   "version": "1.0.0",
   "type": "widget",
   "name": "Chart",
   "description": "Chart widget for Asterisc",
-  "assets": {
-    "logo": {
-      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/chart/src/assets/images/logo-light.png",
-      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/chart/src/assets/images/logo-dark.png"
-    },
-    "images": [
-      {
-        "name": "Demo",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
-      },
-      {
-        "name": "Options",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
-      }
-    ]
-  },
+  "keywords": ["asterisc", "plugin", "widget", "chart"],
+  "author": "Asterisc GmbH",
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/index.js",
   "links": [
     {
-      "name": "Homepage",
-      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/chart"
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/assets/icon.svg",
+      "type": "image/svg"
     },
     {
-      "name": "Repository",
-      "url": "https://github.com/asteriscio/plugins"
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/chart",
+      "type": "text/html"
     },
     {
-      "name": "MIT License",
-      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/chart/LICENSE"
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins",
+      "type": "text/html"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/LICENSE",
+      "type": "text/html"
     }
-  ],
-  "keywords": ["asterisc", "plugin", "widget", "chart"],
-  "author": "asterisc",
-  "license": "MIT"
+  ]
 }

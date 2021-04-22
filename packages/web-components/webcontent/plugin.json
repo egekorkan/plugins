@@ -1,40 +1,37 @@
 {
-  "id": "webcontent-widget",
+  "uid": "webcontent-widget",
   "version": "1.0.0",
   "type": "widget",
   "name": "Web content",
   "description": "Web content widget for Asterisc",
-  "assets": {
-    "logo": {
-      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/webcontent/src/assets/images/logo-light.png",
-      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/webcontent/src/assets/images/logo-dark.png"
-    },
-    "images": [
-      {
-        "name": "Demo",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
-      },
-      {
-        "name": "Options",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
-      }
-    ]
-  },
+  "keywords": ["asterisc", "plugin", "widget", "webcontent"],
+  "author": "Asterisc GmbH",
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/index.js",
   "links": [
     {
-      "name": "Homepage",
-      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/webcontent"
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/assets/icon.svg",
+      "type": "image/svg"
     },
     {
-      "name": "Repository",
-      "url": "https://github.com/asteriscio/plugins"
+      "title": "Screenshot",
+      "alt": "Screenshot of the web content widget for the Asterisc Platform",
+      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
     },
     {
-      "name": "MIT License",
-      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/webcontent/LICENSE"
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/webcontent",
+      "type": "text/html"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins",
+      "type": "text/html"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/LICENSE",
+      "type": "text/html"
     }
-  ],
-  "keywords": ["asterisc", "plugin", "widget", "webcontent"],
-  "author": "asterisc",
-  "license": "MIT"
+  ]
 }

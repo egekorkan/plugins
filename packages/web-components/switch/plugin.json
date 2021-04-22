@@ -1,40 +1,37 @@
 {
-  "id": "switch-widget",
+  "uid": "switch-widget",
   "version": "1.0.0",
   "type": "widget",
   "name": "Switch",
   "description": "Switch widget for Asterisc",
-  "assets": {
-    "logo": {
-      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/switch/src/assets/images/logo-light.png",
-      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/switch/src/assets/images/logo-dark.png"
-    },
-    "images": [
-      {
-        "name": "Demo",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
-      },
-      {
-        "name": "Options",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
-      }
-    ]
-  },
+  "keywords": ["asterisc", "plugin", "widget", "switch"],
+  "author": "Asterisc GmbH",
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/index.js",
   "links": [
     {
-      "name": "Homepage",
-      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/switch"
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/assets/icon.svg",
+      "type": "image/svg"
     },
     {
-      "name": "Repository",
-      "url": "https://github.com/asteriscio/plugins"
+      "title": "Screenshot",
+      "alt": "Screenshot of the switch widget for the Asterisc Platform",
+      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
     },
     {
-      "name": "MIT License",
-      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/switch/LICENSE"
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/switch",
+      "type": "text/html"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins",
+      "type": "text/html"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/LICENSE",
+      "type": "text/html"
     }
-  ],
-  "keywords": ["asterisc", "plugin", "widget", "switch"],
-  "author": "asterisc",
-  "license": "MIT"
+  ]
 }

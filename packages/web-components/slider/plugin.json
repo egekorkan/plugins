@@ -1,40 +1,37 @@
 {
-  "id": "slider-widget",
+  "uid": "slider-widget",
   "version": "1.0.0",
   "type": "widget",
   "name": "Slider",
   "description": "Slider widget for Asterisc",
-  "assets": {
-    "logo": {
-      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/slider/src/assets/images/logo-light.png",
-      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/slider/src/assets/images/logo-dark.png"
-    },
-    "images": [
-      {
-        "name": "Demo",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
-      },
-      {
-        "name": "Options",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
-      }
-    ]
-  },
+  "keywords": ["asterisc", "plugin", "widget", "slider"],
+  "author": "Asterisc GmbH",
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/index.js",
   "links": [
     {
-      "name": "Homepage",
-      "url": "https://github.com/asteriscio/plugins/tree/main/widgets/slider"
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/assets/icon.svg",
+      "type": "image/svg"
     },
     {
-      "name": "Repository",
-      "url": "https://github.com/asteriscio/plugins"
+      "title": "Screenshot",
+      "alt": "Screenshot of the slider widget for the Asterisc Platform",
+      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
     },
     {
-      "name": "MIT License",
-      "url": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/slider/LICENSE"
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/slider",
+      "type": "text/html"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins",
+      "type": "text/html"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/LICENSE",
+      "type": "text/html"
     }
-  ],
-  "keywords": ["asterisc", "plugin", "widget", "slider"],
-  "author": "asterisc",
-  "license": "MIT"
+  ]
 }
