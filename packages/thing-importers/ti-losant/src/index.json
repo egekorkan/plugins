@@ -1,0 +1,25 @@
+{
+  "@context": ["http://www.w3.org/ns/td"],
+  "id": "https://api.asterisc.io/thing-importers/ti-losant",
+  "@type": "ThingImporter",
+  "title": "Losant Thing Importer",
+  "description": "Thing Importer for Losant Devices",
+  "properties": {
+    "devices": {
+      "description": "List of ",
+      "type": "array",
+      "readOnly": true
+    },
+    "map": {
+      "description": "A Jsonata map to transform (best-effort) a losant device to a thing description",
+      "type": "string",
+      "const": "...",
+      "readOnly": true
+    }
+  },
+  "actions": {
+    "mapDevicesToTds": {
+      "description": "Reads 'devices' property and maps them to W3C-compliant Thing Descriptions using 'map' property"
+    }
+  }
+}

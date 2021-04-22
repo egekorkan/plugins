@@ -1,0 +1,29 @@
+{
+  "uid": "ds-text",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "data-schema",
+  "name": "Text",
+  "description": "Text data schema for Asterisc",
+  "keywords": ["asterisc", "plugin", "data-schema", "text"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-text/index.json",
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/data-schemas/ds-text"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-text/LICENSE"
+    }
+  ]
+}

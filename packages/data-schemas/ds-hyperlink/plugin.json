@@ -1,0 +1,29 @@
+{
+  "uid": "ds-hyperlink",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "data-schema",
+  "name": "Hyperlink",
+  "description": "Hyperlink data schema for Asterisc",
+  "keywords": ["asterisc", "plugin", "data-schema", "hyperlink"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-hyperlink/index.json",
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/data-schemas/ds-hyperlink"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-hyperlink/LICENSE"
+    }
+  ]
+}

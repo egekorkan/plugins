@@ -1,0 +1,29 @@
+{
+  "uid": "ds-json",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "data-schema",
+  "name": "Json",
+  "description": "Json data schema for Asterisc",
+  "keywords": ["asterisc", "plugin", "data-schema", "json"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-json/index.json",
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/data-schemas/ds-json"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-json/LICENSE"
+    }
+  ]
+}

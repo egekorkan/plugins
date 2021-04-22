@@ -1,51 +1,7 @@
 [
   {
-    "_id": "606c16c0ad06bcbaff0ebe14",
-    "_type": "plugin",
-    "name": "Thingsboard",
-    "description": "Device management, data collection, processing and visualization for your IoT solution",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2021-03-29T18:06:13.393Z",
-    "__v": 0,
-    "uid": "thingsboard",
-    "display": {
-      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuMTQRbYvHEERcvN2QSVOnm4PA7AkEGWgQvA&usqp=CAU",
-      "color": ""
-    },
-    "type": "binding-template",
-    "version": "1.0.0",
-    "category": "official",
-    "status": "requested",
-    "links": [
-      {
-        "rel": "website",
-        "href": "https://thingsboard.io",
-        "type": "text/html"
-      },
-      {
-        "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
-      },
-      {
-        "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-thingsboard/readme.md",
-        "type": "text/html"
-      }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 1
-  },
-  {
-    "_id": "606c16c0ad06bcbaff0ebe18",
-    "_type": "plugin",
     "name": "WebThings",
     "description": "Mozilla WebThings is Mozilla’s open source implementation of the Web of Things, including the WebThings Gateway and the WebThings framework.",
-    "createdAt": "2020-06-15T00:28:54.792Z",
-    "updatedAt": "2021-04-11T13:11:08.044Z",
-    "__v": 0,
     "uid": "webthings",
     "display": {
       "imageUrl": "https://ffp4g1ylyit3jdyti1hqcvtb-wpengine.netdna-ssl.com/firefox/files/2017/12/firefox-logo-300x310.png",
@@ -53,33 +9,32 @@
     },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "requested",
     "links": [
       {
-        "rel": "website",
-        "href": "https://webthings.io",
-        "type": "text/html"
+        "rel": "icon",
+        "href": ""
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://webthings.io"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-webthings/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-webthings/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 2
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe17",
-    "_type": "plugin",
     "name": "Ubidots",
     "description": "Ubidots is a platform for developing end-to-end IoT applications.",
     "uid": "ubidots",
@@ -89,40 +44,34 @@
     },
     "type": "binding-template",
     "version": "1.0.0",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2021-04-11T13:11:09.672Z",
-    "category": "official",
     "status": "requested",
     "links": [
       {
-        "rel": "website",
-        "href": "https://ubidots.com",
-        "type": "text/html"
+        "rel": "icon",
+        "href": ""
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://ubidots.com"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-ubidots/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-ubidots/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 1
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe1b",
-    "_type": "plugin",
     "name": "Losant",
     "description": "Losant is a powerful, easy-to-use enterprise IoT platform.",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2020-06-15T00:32:19.620Z",
-    "__v": 0,
     "uid": "losant",
     "display": {
       "imageUrl": "https://cdn.worldvectorlogo.com/logos/losant.svg",
@@ -130,37 +79,34 @@
     },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "ready",
     "links": [
       {
-        "rel": "website",
-        "href": "https://losant.com",
-        "type": "text/html"
+        "rel": "icon",
+        "href": ""
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://losant.com"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-losant/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-losant/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 0
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe22",
-    "_type": "plugin",
     "type": "thing-model",
     "uid": "hue-white-light",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2020-06-15T00:15:06.052Z",
     "name": "HUE White Light",
     "description": "TD of a HUE White Light Bulb",
     "keywords": ["asterisc", "wot", "thing-model"],
@@ -169,401 +115,122 @@
       "topic": ["lighting"],
       "labels": ["Philips", "HUE", "LED"],
       "version": "1.0.0",
+      "status": "beta",
       "category": "official",
       "links": [
+        {
+          "rel": "icon",
+          "href": "https://cdn.bauhaus.dk/media/catalog/product/cache/0aa8881122f7fd15f2f183ba935339cc/2/1/2143427A_1_TSad293435-ed7e-47c0-bd2a-ebdb8ca2b15f_1.jpg"
+        },
+        {
+          "rel": "author",
+          "href": "https://asterisc.io",
+          "title": "Asterisc GmbH"
+        },
         {
           "rel": "asterisc-docs",
           "href": "https://asterisc.io/docs",
           "type": "text/html"
         }
       ]
-    },
-    "display": {
-      "imageUrl": "https://cdn.bauhaus.dk/media/catalog/product/cache/0aa8881122f7fd15f2f183ba935339cc/2/1/2143427A_1_TSad293435-ed7e-47c0-bd2a-ebdb8ca2b15f_1.jpg",
-      "color": ""
-    },
-    "status": "beta",
-    "category": "official",
-    "version": "1.0.0",
-    "plugin": {
-      "td": {
-        "title": "Hue White Lamp 1",
-        "id": "urn:dev:ops:32473-HueLight-1",
-        "description": "This is a Philips Hue White Light Bulb that can be controlled remotely. It is configured for a specific router.",
-        "@context": [
-          "https://www.w3.org/2019/wot/td/v1",
-          {
-            "@language": "en"
-          }
-        ],
-        "securityDefinitions": {
-          "nosec_sc": {
-            "scheme": "nosec"
-          }
-        },
-        "security": ["nosec_sc"],
-        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws/lights/1",
-        "properties": {
-          "lightInformation": {
-            "title": "State and Attributes Of Light",
-            "description": "Gets the attributes and state of a given light",
-            "type": "object",
-            "properties": {
-              "state": {
-                "description": "Details the state of the light, see the state table below for more details.",
-                "type": "object",
-                "properties": {
-                  "on": {
-                    "description": "On/Off state of the light. On=true, Off=false",
-                    "type": "boolean",
-                    "readOnly": true,
-                    "writeOnly": false
-                  },
-                  "alert": {
-                    "description": "The alert effect, which is a temporary change to the bulb’s state.'l' of lselect stands for loop.",
-                    "type": "string",
-                    "enum": ["none", "select", "lselect"],
-                    "readOnly": true,
-                    "writeOnly": false
-                  },
-                  "bri": {
-                    "description": "brightness level",
-                    "type": "integer",
-                    "minimum": 0,
-                    "maximum": 254,
-                    "readOnly": true,
-                    "writeOnly": false
-                  },
-                  "reachable": {
-                    "description": "Indicates if a light can be reached by the bridge",
-                    "type": "boolean",
-                    "readOnly": true,
-                    "writeOnly": false
-                  }
-                }
-              },
-              "type": {
-                "description": "A fixed name describing the type of light",
-                "type": "string",
-                "readOnly": true,
-                "writeOnly": false
-              },
-              "name": {
-                "description": "A unique, editable name given to the light",
-                "type": "string",
-                "readOnly": false,
-                "writeOnly": false
-              },
-              "modelid": {
-                "description": "The hardware model of the light.",
-                "type": "string",
-                "readOnly": true,
-                "writeOnly": false
-              },
-              "swversion": {
-                "description": "An identifier for the software version running on the light",
-                "type": "string",
-                "readOnly": true,
-                "writeOnly": false
-              }
-            },
-            "forms": [
-              {
-                "href": "/",
-                "htv:methodName": "GET",
-                "http:methodName": "GET",
-                "contentType": "application/json",
-                "op": ["readproperty"]
-              },
-              {
-                "href": "/",
-                "htv:methodName": "PUT",
-                "contentType": "application/json",
-                "op": ["writeproperty"]
-              }
-            ]
-          }
-        },
-        "actions": {
-          "rename": {
-            "title": "Rename Light",
-            "description": "A light can have its name changed when in any state, including when it is unreachable or off.",
-            "input": {
-              "type": "object",
-              "properties": {
-                "name": {
-                  "type": "string",
-                  "minLength": 0,
-                  "maxLength": 32
-                }
-              }
-            },
-            "output": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "success": {
-                    "type": "object",
-                    "properties": {},
-                    "additionalProperties": {
-                      "type": "string"
-                    }
-                  }
-                }
-              }
-            },
-            "forms": [
-              {
-                "href": "/",
-                "contentType": "application/json",
-                "htv:methodName": "PUT",
-                "op": ["invokeaction"]
-              }
-            ],
-            "idempotent": true,
-            "safe": false
-          },
-          "set_state": {
-            "title": "Set State",
-            "description": "Allows the user to turn the light on and off, modify the hue and effects",
-            "input": {
-              "type": "object",
-              "properties": {
-                "on": {
-                  "description": "On/Off state of the light. On=true, Off=false",
-                  "type": "boolean"
-                },
-                "bri": {
-                  "description": "Brightness level. Accepts 255 as well",
-                  "type": "integer",
-                  "minimum": 0,
-                  "maximum": 254
-                },
-                "alert": {
-                  "description": "The alert effect, which is a temporary change to the bulb’s state.'l' of lselect stands for loop. Presence of lselect ignores transitiontime",
-                  "type": "string",
-                  "enum": ["lselect", "none", "select"]
-                },
-                "transisiontime": {
-                  "description": "The duration of the transition from the light’s current state to the new state.",
-                  "type": "integer",
-                  "unit": "100ms",
-                  "minimum": 0,
-                  "maximum": 65535
-                },
-                "bri_inc": {
-                  "description": "Increments or decrements the value of the brightness.  bri_inc is ignored if the bri attribute is provided.",
-                  "type": "integer",
-                  "minimum": -254,
-                  "maximum": 254
-                }
-              }
-            },
-            "output": {
-              "type": "array",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "success": {
-                    "oneOf": [
-                      {
-                        "type": "object",
-                        "properties": {
-                          "/lights/4/state/bri_inc": {
-                            "description": "Increments or decrements the value of the brightness.  bri_inc is ignored if the bri attribute is provided.",
-                            "type": "integer",
-                            "minimum": -254,
-                            "maximum": 254
-                          }
-                        }
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "/lights/4/state/on": {
-                            "description": "On/Off state of the light. On=true, Off=false",
-                            "type": "boolean"
-                          }
-                        }
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "/lights/4/state/bri": {
-                            "description": "brightness level",
-                            "type": "integer",
-                            "minimum": 0,
-                            "maximum": 254
-                          }
-                        }
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "/lights/4/state/alert": {
-                            "description": "The alert effect, which is a temporary change to the bulb’s state.'l' of lselect stands for loop.",
-                            "type": "string",
-                            "enum": ["lselect", "none", "select"]
-                          }
-                        }
-                      },
-                      {
-                        "type": "object",
-                        "properties": {
-                          "/lights/4/state/transisiontime": {
-                            "description": "The duration of the transition from the light’s current state to the new state.",
-                            "type": "integer",
-                            "minimum": 0,
-                            "maximum": 65535
-                          }
-                        }
-                      }
-                    ]
-                  }
-                }
-              }
-            },
-            "forms": [
-              {
-                "href": "/state",
-                "contentType": "application/json",
-                "htv:methodName": "PUT",
-                "op": ["invokeaction"]
-              }
-            ],
-            "idempotent": false,
-            "safe": false
-          }
-        }
-      }
-    },
-    "rating": 4.5,
-    "upvotes": 0
+    }
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe16",
-    "_type": "plugin",
     "name": "EdgeX Foundry",
     "uid": "edgexfoundry",
     "description": "A common open platform unifying the IoT Edge.",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2020-06-15T00:15:06.052Z",
-    "__v": 0,
-    "display": {
-      "imageUrl": "https://www.iotworldtoday.com/files/2017/10/logo_edgex_x-4.png",
-      "color": ""
-    },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "beta",
     "links": [
       {
-        "rel": "website",
-        "href": "https://edgexfoundry.org",
-        "type": "text/html"
+        "rel": "icon",
+        "href": "https://www.iotworldtoday.com/files/2017/10/logo_edgex_x-4.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://edgexfoundry.org"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-edgexfoundry/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-edgexfoundry/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 0
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe1c",
-    "_type": "plugin",
     "name": "Kaa",
     "description": "The Kaa Cloud is an IoT platform-as-a-service (PaaS) accessible for all the registered users with KaaID.",
     "uid": "kaa",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2020-06-15T00:32:19.620Z",
-    "display": {
-      "imageUrl": "https://avatars0.githubusercontent.com/u/6984613?s=400&v=4",
-      "color": ""
-    },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "requested",
     "links": [
       {
-        "rel": "website",
-        "href": "https://www.kaaproject.org",
-        "type": "text/html"
+        "rel": "icon",
+        "href": "https://avatars0.githubusercontent.com/u/6984613?s=400&v=4"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://www.kaaproject.org"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-kaa/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-kaa/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 0
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe13",
-    "_type": "plugin",
+    "uid": "ros",
     "name": "ROS",
     "description": "ROS (Robot Operating System) is an open-source, meta-operating system for your robot.",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2021-03-31T12:23:21.036Z",
-    "__v": 0,
-    "display": {
-      "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Robot_Operating_System_logo.svg/1200px-Robot_Operating_System_logo.svg.png",
-      "color": ""
-    },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
-    "uid": "ros",
     "status": "requested",
     "links": [
       {
-        "rel": "website",
-        "href": "https://ros.org",
-        "type": "text/html"
+        "rel": "icon",
+        "href": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Robot_Operating_System_logo.svg/1200px-Robot_Operating_System_logo.svg.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://ros.org"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-ros/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-ros/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 3
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe23",
-    "_type": "plugin",
     "type": "thing-model",
     "uid": "eur-pallet",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2020-06-15T00:15:06.052Z",
     "name": "EUR-pallet",
     "description": "The standard European pallet as specified by the European Pallet Association (EPAL). Pallets conforming to the standardization are eligible for the European Pallet Pool (EPP), the system which allows for an exchange as pallet for pallet .The EUR/EPAL-pallet is 1,200 mm × 800 mm × 144 mm (47.2 in × 31.5 in × 5.7 in); it is a four-way pallet made of wood that is nailed with 78 special nails in a prescribed pattern. The weight of a EUR/EPAL-pallet (EPAL 1) is approx. 25 kg. [1] Around 450-500 million EUR-pallets are in circulation.",
     "keywords": ["asterisc", "wot", "thing-model"],
@@ -572,186 +239,117 @@
       "topic": ["pallet"],
       "labels": ["EUR", "EPAL"],
       "version": "1.0.0",
+      "status": "beta",
       "category": "official",
       "links": [
+        {
+          "rel": "icon",
+          "href": "https://www.medewo.com/de-de/media/catalog/product/cache/6/image/700x429/9df78eab33525d08d6e5fb8d27136e95/1/8/181J07-L_HB_4.png"
+        },
         {
           "rel": "asterisc-docs",
           "href": "https://asterisc.io/docs",
           "type": "text/html"
         }
       ]
-    },
-    "display": {
-      "imageUrl": "https://www.medewo.com/de-de/media/catalog/product/cache/6/image/700x429/9df78eab33525d08d6e5fb8d27136e95/1/8/181J07-L_HB_4.png",
-      "color": ""
-    },
-    "status": "beta",
-    "category": "official",
-    "version": "1.0.0",
-    "plugin": {
-      "td": {
-        "title": "EUR-pallet",
-        "id": "urn:dev:ops:32473-EUR-pallet",
-        "description": "The standard European pallet measuring 1,200 mm × 800 mm × 144 mm (47.2 in × 31.5 in × 5.7 in)",
-        "@context": [
-          "https://www.w3.org/2019/wot/td/v1",
-          {
-            "@language": "en"
-          }
-        ],
-        "securityDefinitions": {
-          "nosec_sc": {
-            "scheme": "nosec"
-          }
-        },
-        "security": ["nosec_sc"],
-        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws",
-        "properties": {
-          "length": {
-            "description": "The length of the pallet in (mm)",
-            "const": 1200,
-            "unit": "mm",
-            "readOnly": true
-          },
-          "width": {
-            "description": "The width of the pallet in (mm)",
-            "const": 800,
-            "unit": "mm",
-            "readOnly": true
-          },
-          "height": {
-            "description": "The height of the pallet in (mm)",
-            "const": 144,
-            "unit": "mm",
-            "readOnly": true
-          }
-        }
-      }
-    },
-    "rating": 4.5,
-    "upvotes": 0
+    }
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe19",
-    "_type": "plugin",
     "name": "Azure IoT",
     "description": "Azure IoT is a collection of managed and platform services across edge and cloud that connect, monitor, and control billions of IoT assets.",
     "uid": "azure-iot",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2020-06-15T00:32:19.620Z",
-    "display": {
-      "imageUrl": "https://img.stackshare.io/service/6353/Microsoft.VisualStudio.Services.Icons.Default",
-      "color": ""
-    },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "requested",
     "links": [
       {
-        "rel": "website",
-        "href": "https://azure.microsoft.com/en-us/overview/iot",
-        "type": "text/html"
+        "rel": "icon",
+        "href": "https://img.stackshare.io/service/6353/Microsoft.VisualStudio.Services.Icons.Default"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://azure.microsoft.com/en-us/overview/iot"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-azure-iot/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-azure-iot/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 0
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe1a",
-    "_type": "plugin",
     "name": "Google Cloud IoT Core",
     "description": "Google Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices.",
     "uid": "google-cloud-iot-core",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2021-03-29T19:04:46.146Z",
-    "display": {
-      "imageUrl": "https://p.kindpng.com/picc/s/298-2985925_google-cloud-iot-core-icon-hd-png-download.png",
-      "color": ""
-    },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "requested",
     "links": [
       {
-        "rel": "website",
-        "href": "https://cloud.google.com/iot-core",
-        "type": "text/html"
+        "rel": "icon",
+        "href": "https://p.kindpng.com/picc/s/298-2985925_google-cloud-iot-core-icon-hd-png-download.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://cloud.google.com/iot-core"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-google-cloud-iot-core/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-google-cloud-iot-core/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 1
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe1d",
-    "_type": "plugin",
     "name": "AWS IoT Core",
     "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices.",
     "uid": "aws-iot-core",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2021-04-11T13:11:15.843Z",
-    "display": {
-      "imageUrl": "https://img.stackshare.io/service/7996/aws-iot_20copy.png",
-      "color": ""
-    },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "requested",
     "links": [
       {
-        "rel": "website",
-        "href": "https://aws.amazon.com/iot-core",
-        "type": "text/html"
+        "rel": "icon",
+        "href": "https://img.stackshare.io/service/7996/aws-iot_20copy.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://aws.amazon.com/iot-core"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-aws-iot-core/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-aws-iot-core/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 10
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe20",
-    "_type": "plugin",
     "type": "thing-model",
     "uid": "hue-daylight-sensor",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2020-06-15T00:15:06.052Z",
     "name": "HUE Daylight Sensor",
     "description": "TD of a HUE Daylight Sensor",
     "keywords": ["asterisc", "wot", "thing-model"],
@@ -760,130 +358,24 @@
       "topic": ["sensor"],
       "labels": ["Philips", "HUE", "Sensor"],
       "version": "1.0.0",
+      "status": "beta",
       "category": "official",
       "links": [
+        {
+          "ref": "icon",
+          "href": "https://www.led1.de/shop/images/thumbnail/produkte/medium/Produktbilder/Philips_Bewegungsmelder.jpg"
+        },
         {
           "rel": "asterisc-docs",
           "href": "https://asterisc.io/docs",
           "type": "text/html"
         }
       ]
-    },
-    "display": {
-      "imageUrl": "https://www.led1.de/shop/images/thumbnail/produkte/medium/Produktbilder/Philips_Bewegungsmelder.jpg",
-      "color": ""
-    },
-    "status": "beta",
-    "category": "official",
-    "version": "1.0.0",
-    "plugin": {
-      "td": {
-        "title": "Hue Daylight Sensor",
-        "description": "A virtual sensor that provides daylight information based on location information",
-        "id": "urn:dev:ops:32473-HueDaylight-1234",
-        "@context": [
-          "https://www.w3.org/2019/wot/td/v1",
-          {
-            "@language": "en"
-          }
-        ],
-        "securityDefinitions": {
-          "nosec_sc": {
-            "scheme": "nosec"
-          }
-        },
-        "security": ["nosec_sc"],
-        "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws/sensors/1",
-        "properties": {
-          "sensorInformation": {
-            "description": "Daylight Sensor information from the bridge",
-            "type": "object",
-            "properties": {
-              "state": {
-                "type": "object",
-                "readOnly": true,
-                "writeOnly": false,
-                "properties": {
-                  "daylight": {
-                    "description": "Whether there is daylight or not",
-                    "type": "boolean"
-                  },
-                  "lastupdated": {
-                    "type": "string",
-                    "format": "date-time"
-                  }
-                }
-              },
-              "config": {
-                "readOnly": false,
-                "writeOnly": false,
-                "type": "object",
-                "properties": {
-                  "on": {
-                    "type": "boolean"
-                  },
-                  "configured": {
-                    "type": "boolean"
-                  },
-                  "sunriseoffset": {
-                    "type": "integer"
-                  },
-                  "sunsetoffset": {
-                    "type": "integer"
-                  }
-                }
-              },
-              "name": {
-                "type": "string",
-                "readOnly": false,
-                "writeOnly": false
-              },
-              "type": {
-                "type": "string",
-                "const": "Daylight",
-                "readOnly": true,
-                "writeOnly": false
-              },
-              "modelid": {
-                "type": "string",
-                "const": "PHDL00",
-                "readOnly": true,
-                "writeOnly": false
-              },
-              "manufacturername": {
-                "type": "string",
-                "const": "Philips",
-                "readOnly": true,
-                "writeOnly": false
-              },
-              "swversion": {
-                "type": "string",
-                "readOnly": true
-              }
-            },
-            "forms": [
-              {
-                "href": "",
-                "contentType": "application/json",
-                "htv:methodName": "GET",
-                "op": ["readproperty"]
-              }
-            ]
-          }
-        }
-      }
-    },
-    "rating": 4.5,
-    "upvotes": 0
+    }
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe1e",
-    "_type": "plugin",
     "name": "Blynk",
     "description": "A hardware-agnostic IoT platform.",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2020-06-15T00:15:06.052Z",
-    "__v": 0,
     "uid": "blynk",
     "display": {
       "imageUrl": "https://avatars.githubusercontent.com/u/11541426?s=400&v=4",
@@ -891,37 +383,34 @@
     },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "beta",
     "links": [
       {
-        "rel": "website",
-        "href": "https://blynk.io",
-        "type": "text/html"
+        "rel": "icon",
+        "href": ""
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://blynk.io"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-blynk/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-blynk/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 0
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe21",
-    "_type": "plugin",
     "type": "thing-model",
     "uid": "hue-dimmer-switch",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2020-06-15T00:15:06.052Z",
     "name": "HUE Dimmer Switch",
     "description": "TD of a HUE Dimmer Switch",
     "keywords": ["asterisc", "wot", "thing-model"],
@@ -930,6 +419,7 @@
       "topic": ["lighting"],
       "labels": ["Philips", "HUE", "Switch"],
       "version": "1.0.0",
+      "status": "beta",
       "category": "official",
       "links": [
         {
@@ -1052,55 +542,46 @@
           }
         }
       }
-    },
-    "rating": 4.5,
-    "upvotes": 0
+    }
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe15",
-    "_type": "plugin",
     "name": "Particle",
     "description": "Particle offers an array of IoT essentials—hardware, connectivity, and the platform used to run the connected devices.",
     "uid": "particle",
-    "createdAt": "2020-06-15T00:32:19.620Z",
-    "updatedAt": "2020-06-15T00:32:19.620Z",
     "display": {
       "imageUrl": "https://images.ctfassets.net/ity165ek7v1z/2Mcm2cK8p2WsU8SauYiy0i/b135516f604b90c1cbf5d1f992824199/meta-og-image.jpg",
       "color": ""
     },
     "type": "binding-template",
     "version": "1.0.0",
-    "category": "official",
     "status": "beta",
     "links": [
       {
-        "rel": "website",
-        "href": "https://particle.io",
-        "type": "text/html"
+        "rel": "icon",
+        "href": ""
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
+      },
+      {
+        "rel": "homepage",
+        "href": "https://particle.io"
       },
       {
         "rel": "asterisc-docs",
-        "href": "https://asterisc.io/docs",
-        "type": "text/html"
+        "href": "https://asterisc.io/docs"
       },
       {
         "rel": "readme",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-particle/readme.md",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-particle/readme.md"
       }
-    ],
-    "keywords": ["asterisc", "wot", "binding-template"],
-    "markdown": "# binding-template",
-    "rating": 4.5,
-    "upvotes": 0
+    ]
   },
   {
-    "_id": "606c16c0ad06bcbaff0ebe1f",
-    "_type": "plugin",
     "type": "thing-model",
-    "uid": "hue-bridge-sample",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2020-06-15T00:15:06.052Z",
+    "uid": "hue-bridge",
     "name": "HUE Bridge Simple",
     "description": "TD of a HUE Bridge, configured for lights, dimmer switch and a software-based daylight sensor",
     "keywords": ["asterisc", "wot", "thing-model"],
@@ -1109,6 +590,7 @@
       "topic": ["lighting"],
       "labels": ["Philips", "HUE"],
       "version": "1.0.0",
+      "status": "beta",
       "category": "official",
       "links": [
         {
@@ -1469,17 +951,11 @@
           }
         }
       }
-    },
-    "rating": 4.5,
-    "upvotes": 0
+    }
   },
   {
-    "_id": "6071f6b38f19894c319b2423",
-    "_type": "plugin",
     "type": "thing-model",
     "uid": "ncd-environment-iot-sensor",
-    "createdAt": "2020-06-15T00:15:06.052Z",
-    "updatedAt": "2021-04-11T13:11:02.128Z",
     "name": "Industrial IoT Long Range Wireless Environmental Temperature Humidity Pressure Air Quality Sensor",
     "description": "TM of an NCD Industrial Iot Long Range Wireless Environmental Sensor",
     "keywords": ["asterisc", "wot", "thing-model"],
@@ -1488,6 +964,7 @@
       "topic": ["lighting"],
       "labels": ["Philips", "HUE", "LED"],
       "version": "1.0.0",
+      "status": "beta",
       "category": "official",
       "links": [
         {
@@ -1506,530 +983,533 @@
           "type": "text/html"
         }
       ]
-    },
-    "display": {
-      "imageUrl": "https://media.ncd.io/sites/2/20210319141429/Enviro-Air-Quality-Sensor.jpg",
-      "color": ""
-    },
-    "status": "requested",
-    "category": "official",
-    "version": "1.0.0",
-    "plugin": {
-      "td": {}
-    },
-    "rating": 4.5,
-    "upvotes": 1
+    }
   },
   {
     "uid": "button-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Button",
     "description": "Button widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "button"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/button",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/button"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/LICENSE"
       }
     ]
   },
   {
     "uid": "chart-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Chart",
     "description": "Chart widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "chart"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/assets/icon.svg"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/chart",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/chart"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/LICENSE"
       }
     ]
   },
   {
     "uid": "checklist-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Checklist",
     "description": "Checklist widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "checklist"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/checklist",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/checklist"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/LICENSE"
       }
     ]
   },
   {
     "uid": "eventlog-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Alert table",
     "description": "Alert table widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "eventlog"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/eventlog",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/eventlog"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/LICENSE"
       }
     ]
   },
   {
     "uid": "knob-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Knob",
     "description": "Knob widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "knob"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/knob",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/knob"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/LICENSE"
       }
     ]
   },
   {
     "uid": "map-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Map",
     "description": "Map widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "map"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/map",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/map"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/LICENSE"
       }
     ]
   },
   {
     "uid": "markdown-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Markdown",
     "description": "Markdown widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "markdown"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/markdown",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/markdown"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/LICENSE"
       }
     ]
   },
   {
     "uid": "slider-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Slider",
     "description": "Slider widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "slider"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/slider",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/slider"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/LICENSE"
       }
     ]
   },
   {
     "uid": "sparkline-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Sparkline",
     "description": "Sparkline widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "sparkline"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/sparkline",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/sparkline"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/LICENSE"
       }
     ]
   },
   {
     "uid": "stepper-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Stepper",
     "description": "Stepper widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "stepper"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/stepper",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/stepper"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/LICENSE"
       }
     ]
   },
   {
     "uid": "switch-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Switch",
     "description": "Switch widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "switch"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/switch",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/switch"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/LICENSE"
       }
     ]
   },
   {
     "uid": "table-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Table",
     "description": "Table widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "table"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/table",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/table"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/LICENSE"
       }
     ]
   },
   {
     "uid": "text-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Text",
     "description": "Text widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "text"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/text",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/text"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/LICENSE"
       }
     ]
   },
   {
     "uid": "webcontent-widget",
-    "version": "1.0.0",
     "type": "widget",
+    "version": "1.0.0",
+    "status": "beta",
+    "category": "official",
     "name": "Web content",
     "description": "Web content widget for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "webcontent"],
-    "author": "Asterisc GmbH",
     "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/assets/icon.svg",
-        "type": "image/svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png",
-        "type": "image/png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+      },
+      {
+        "rel": "author",
+        "href": "https://asterisc.io",
+        "title": "Asterisc GmbH"
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/webcontent",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/webcontent"
       },
       {
         "rel": "repository",
-        "href": "https://github.com/asteriscio/plugins",
-        "type": "text/html"
+        "href": "https://github.com/asteriscio/plugins"
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/LICENSE",
-        "type": "text/html"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/LICENSE"
       }
     ]
   }

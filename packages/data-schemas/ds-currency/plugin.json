@@ -1,31 +1,29 @@
 {
   "uid": "ds-currency",
   "version": "1.0.0",
+  "status": "beta",
   "type": "data-schema",
   "name": "Currency",
   "description": "Currency data schema for Asterisc",
   "keywords": ["asterisc", "plugin", "data-schema", "currency"],
-  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/ds-currency.json",
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-currency/index.json",
   "links": [
     {
       "rel": "author",
       "href": "https://asterisc.io",
-      "type": "text/html"
+      "title": "Asterisc GmbH"
     },
     {
       "rel": "homepage",
-      "href": "https://github.com/asteriscio/plugins/tree/main/packages/data-schemas/ds-currency",
-      "type": "text/html"
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/data-schemas/ds-currency"
     },
     {
       "rel": "repository",
-      "href": "https://github.com/asteriscio/plugins",
-      "type": "text/html"
+      "href": "https://github.com/asteriscio/plugins"
     },
     {
       "rel": "license",
-      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/LICENSE",
-      "type": "text/html"
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-currency/LICENSE"
     }
   ]
 }

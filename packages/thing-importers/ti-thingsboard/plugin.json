@@ -1,0 +1,27 @@
+{
+  "uid": "thingsboard",
+  "type": "binding-template",
+  "version": "1.0.0",
+  "status": "requested",
+  "category": "official",
+  "name": "Thingsboard",
+  "description": "Device management, data collection, processing and visualization for your IoT solution",
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuMTQRbYvHEERcvN2QSVOnm4PA7AkEGWgQvA&usqp=CAU"
+    },
+    {
+      "rel": "website",
+      "href": "https://thingsboard.io"
+    },
+    {
+      "rel": "asterisc-docs",
+      "href": "https://asterisc.io/docs"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/core/thing-importers/ti-thingsboard/readme.md"
+    }
+  ]
+}

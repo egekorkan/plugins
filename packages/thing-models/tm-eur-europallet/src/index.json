@@ -1,0 +1,38 @@
+{
+  "title": "EUR-pallet",
+  "id": "urn:dev:ops:32473-EUR-pallet",
+  "description": "The standard European pallet measuring 1,200 mm × 800 mm × 144 mm (47.2 in × 31.5 in × 5.7 in)",
+  "@context": [
+    "https://www.w3.org/2019/wot/td/v1",
+    {
+      "@language": "en"
+    }
+  ],
+  "securityDefinitions": {
+    "nosec_sc": {
+      "scheme": "nosec"
+    }
+  },
+  "security": ["nosec_sc"],
+  "base": "http://Philips-hue.local/api/R6D7CYQFzXckikMPLEL8WbSZWg9XKkEyx-NrgKws",
+  "properties": {
+    "length": {
+      "description": "The length of the pallet in (mm)",
+      "const": 1200,
+      "unit": "mm",
+      "readOnly": true
+    },
+    "width": {
+      "description": "The width of the pallet in (mm)",
+      "const": 800,
+      "unit": "mm",
+      "readOnly": true
+    },
+    "height": {
+      "description": "The height of the pallet in (mm)",
+      "const": 144,
+      "unit": "mm",
+      "readOnly": true
+    }
+  }
+}

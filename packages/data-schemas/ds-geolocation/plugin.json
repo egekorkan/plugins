@@ -1,0 +1,29 @@
+{
+  "uid": "ds-geolocation",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "data-schema",
+  "name": "geolocation",
+  "description": "Geolocation data schema for Asterisc",
+  "keywords": ["asterisc", "plugin", "data-schema", "geolocation"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-geolocation/index.json",
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/data-schemas/ds-geolocation"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-geolocation/LICENSE"
+    }
+  ]
+}

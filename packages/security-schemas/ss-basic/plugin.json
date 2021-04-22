@@ -1,0 +1,29 @@
+{
+  "uid": "ss-basic",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "security-schema",
+  "name": "Basic Security",
+  "description": "Basic security security schema for Asterisc",
+  "keywords": ["asterisc", "plugin", "security-schema", "nosec"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/security-schemas/ss-basic/index.json",
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/security-schemas/ss-basic"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/security-schemas/ss-basic/LICENSE"
+    }
+  ]
+}

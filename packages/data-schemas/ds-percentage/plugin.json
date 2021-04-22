@@ -1,0 +1,29 @@
+{
+  "uid": "ds-percentage",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "data-schema",
+  "name": "Percentage",
+  "description": "Percentage data schema for Asterisc",
+  "keywords": ["asterisc", "plugin", "data-schema", "percentage"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-percentage/index.json",
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/data-schemas/ds-percentage"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/data-schemas/ds-percentage/LICENSE"
+    }
+  ]
+}
