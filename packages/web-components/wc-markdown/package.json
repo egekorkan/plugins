@@ -1,0 +1,17 @@
+{
+  "name": "wc-markdown",
+  "version": "0.0.1",
+  "description": "Markdown web component for Asterisc",
+  "repository": "github:asteriscio/asterisc-markdown",
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-markdown",
+  "author": "Asterisc GmbH",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "web-component",
+    "markdown"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "wc-knob",
+  "version": "0.0.1",
+  "description": "Knob web component for Asterisc",
+  "repository": "github:asteriscio/asterisc-knob",
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-knob",
+  "author": "Asterisc GmbH",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "web-component",
+    "knob"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "wc-table",
+  "version": "0.0.1",
+  "description": "Table web component for Asterisc",
+  "repository": "github:asteriscio/asterisc-table",
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-table",
+  "author": "Asterisc GmbH",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "web-component",
+    "table"
+  ]
+}

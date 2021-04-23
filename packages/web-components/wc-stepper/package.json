@@ -1,0 +1,17 @@
+{
+  "name": "wc-stepper",
+  "version": "0.0.1",
+  "description": "Stepper web component for Asterisc",
+  "repository": "github:asteriscio/asterisc-stepper",
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-stepper",
+  "author": "Asterisc GmbH",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "web-component",
+    "stepper"
+  ]
+}

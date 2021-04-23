@@ -1,0 +1,37 @@
+{
+  "uid": "wc-table",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "web-component",
+  "name": "Table",
+  "description": "Table web component for Asterisc",
+  "keywords": ["asterisc", "plugin", "web-component", "table"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-table/src/index.js",
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-table/src/assets/icon.svg"
+    },
+    {
+      "rel": "screenshot",
+      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
+    },
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-table"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-table/LICENSE"
+    }
+  ]
+}

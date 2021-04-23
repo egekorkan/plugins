@@ -9,5 +9,5 @@
 An open source thing importer for the Asterisc WoT platform.
 
 <div align="center">
-  <h3>Asterisc© Plugin</h3>
+  <h4>Asterisc© Plugin</h4>
 </div>

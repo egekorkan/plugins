@@ -1,0 +1,17 @@
+{
+  "name": "wc-eventlog",
+  "version": "0.0.1",
+  "description": "Eventlog web component for Asterisc",
+  "repository": "github:asteriscio/asterisc-component",
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-component",
+  "author": "Asterisc GmbH",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "web-component",
+    "component"
+  ]
+}

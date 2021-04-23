@@ -1,0 +1,17 @@
+{
+  "name": "wc-checklist",
+  "version": "0.0.1",
+  "description": "Checklist web component for Asterisc",
+  "repository": "github:asteriscio/asterisc-checklist",
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-checklist",
+  "author": "Asterisc GmbH",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "web-component",
+    "checklist"
+  ]
+}

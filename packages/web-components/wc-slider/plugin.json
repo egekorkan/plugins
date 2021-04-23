@@ -1,0 +1,37 @@
+{
+  "uid": "wc-slider",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "web-component",
+  "name": "Slider",
+  "description": "Slider web component for Asterisc",
+  "keywords": ["asterisc", "plugin", "web-component", "slider"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-slider/src/index.js",
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-slider/src/assets/icon.svg"
+    },
+    {
+      "rel": "screenshot",
+      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
+    },
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-slider"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-slider/LICENSE"
+    }
+  ]
+}

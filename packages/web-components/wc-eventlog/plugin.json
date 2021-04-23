@@ -1,0 +1,37 @@
+{
+  "uid": "wc-eventlog",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "web-component",
+  "name": "Alert table",
+  "description": "Alert table web component for Asterisc",
+  "keywords": ["asterisc", "plugin", "web-component", "eventlog"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/index.js",
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/icon.svg"
+    },
+    {
+      "rel": "screenshot",
+      "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
+    },
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-eventlog"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/LICENSE"
+    }
+  ]
+}

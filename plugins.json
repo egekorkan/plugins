@@ -129,8 +129,7 @@
         },
         {
           "rel": "asterisc-docs",
-          "href": "https://asterisc.io/docs",
-          "type": "text/html"
+          "href": "https://asterisc.io/docs"
         }
       ]
     }
@@ -248,8 +247,7 @@
         },
         {
           "rel": "asterisc-docs",
-          "href": "https://asterisc.io/docs",
-          "type": "text/html"
+          "href": "https://asterisc.io/docs"
         }
       ]
     }
@@ -367,8 +365,7 @@
         },
         {
           "rel": "asterisc-docs",
-          "href": "https://asterisc.io/docs",
-          "type": "text/html"
+          "href": "https://asterisc.io/docs"
         }
       ]
     }
@@ -424,8 +421,7 @@
       "links": [
         {
           "rel": "asterisc-docs",
-          "href": "https://asterisc.io/docs",
-          "type": "text/html"
+          "href": "https://asterisc.io/docs"
         }
       ]
     },
@@ -595,8 +591,7 @@
       "links": [
         {
           "rel": "asterisc-docs",
-          "href": "https://asterisc.io/docs",
-          "type": "text/html"
+          "href": "https://asterisc.io/docs"
         }
       ]
     },
@@ -969,40 +964,37 @@
       "links": [
         {
           "rel": "asterisc-docs",
-          "href": "https://asterisc.io/docs",
-          "type": "text/html"
+          "href": "https://asterisc.io/docs"
         },
         {
           "rel": "website",
-          "href": "https://store.ncd.io/",
-          "type": "text/html"
+          "href": "https://store.ncd.io/"
         },
         {
           "rel": "buy",
-          "href": "https://store.ncd.io/product/industrial-iot-long-range-wireless-environmental-temperature-humidity-pressure-air-quality-sensor/",
-          "type": "text/html"
+          "href": "https://store.ncd.io/product/industrial-iot-long-range-wireless-environmental-temperature-humidity-pressure-air-quality-sensor/"
         }
       ]
     }
   },
   {
-    "uid": "button-widget",
-    "type": "widget",
+    "uid": "button",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Button",
-    "description": "Button widget for Asterisc",
+    "description": "Button web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "button"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-button/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-button/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1011,7 +1003,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/button"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-button"
       },
       {
         "rel": "repository",
@@ -1019,24 +1011,24 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/button/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-button/LICENSE"
       }
     ]
   },
   {
-    "uid": "chart-widget",
-    "type": "widget",
+    "uid": "chart",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Chart",
-    "description": "Chart widget for Asterisc",
+    "description": "Chart web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "chart"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-chart/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-chart/src/assets/icon.svg"
       },
       {
         "rel": "author",
@@ -1045,7 +1037,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/chart"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-chart"
       },
       {
         "rel": "repository",
@@ -1053,28 +1045,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/chart/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-chart/LICENSE"
       }
     ]
   },
   {
-    "uid": "checklist-widget",
-    "type": "widget",
+    "uid": "checklist",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Checklist",
-    "description": "Checklist widget for Asterisc",
+    "description": "Checklist web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "checklist"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-checklist/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-checklist/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1083,7 +1075,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/checklist"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-checklist"
       },
       {
         "rel": "repository",
@@ -1091,28 +1083,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/checklist/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-checklist/LICENSE"
       }
     ]
   },
   {
-    "uid": "eventlog-widget",
-    "type": "widget",
+    "uid": "eventlog",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Alert table",
-    "description": "Alert table widget for Asterisc",
+    "description": "Alert table web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "eventlog"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1121,7 +1113,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/eventlog"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-eventlog"
       },
       {
         "rel": "repository",
@@ -1129,28 +1121,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/LICENSE"
       }
     ]
   },
   {
-    "uid": "knob-widget",
-    "type": "widget",
+    "uid": "knob",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Knob",
-    "description": "Knob widget for Asterisc",
+    "description": "Knob web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "knob"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-knob/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-knob/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1159,7 +1151,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/knob"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-knob"
       },
       {
         "rel": "repository",
@@ -1167,28 +1159,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/knob/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-knob/LICENSE"
       }
     ]
   },
   {
-    "uid": "map-widget",
-    "type": "widget",
+    "uid": "map",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Map",
-    "description": "Map widget for Asterisc",
+    "description": "Map web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "map"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-map/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-map/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1197,7 +1189,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/map"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-map"
       },
       {
         "rel": "repository",
@@ -1205,28 +1197,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/map/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-map/LICENSE"
       }
     ]
   },
   {
-    "uid": "markdown-widget",
-    "type": "widget",
+    "uid": "markdown",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Markdown",
-    "description": "Markdown widget for Asterisc",
+    "description": "Markdown web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "markdown"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-markdown/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-markdown/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1235,7 +1227,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/markdown"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-markdown"
       },
       {
         "rel": "repository",
@@ -1243,28 +1235,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/markdown/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-markdown/LICENSE"
       }
     ]
   },
   {
-    "uid": "slider-widget",
-    "type": "widget",
+    "uid": "slider",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Slider",
-    "description": "Slider widget for Asterisc",
+    "description": "Slider web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "slider"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-slider/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-slider/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1273,7 +1265,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/slider"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-slider"
       },
       {
         "rel": "repository",
@@ -1281,28 +1273,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/slider/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-slider/LICENSE"
       }
     ]
   },
   {
-    "uid": "sparkline-widget",
-    "type": "widget",
+    "uid": "sparkline",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Sparkline",
-    "description": "Sparkline widget for Asterisc",
+    "description": "Sparkline web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "sparkline"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-sparkline/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-sparkline/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1311,7 +1303,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/sparkline"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-sparkline"
       },
       {
         "rel": "repository",
@@ -1319,28 +1311,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/sparkline/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-sparkline/LICENSE"
       }
     ]
   },
   {
-    "uid": "stepper-widget",
-    "type": "widget",
+    "uid": "stepper",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Stepper",
-    "description": "Stepper widget for Asterisc",
+    "description": "Stepper web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "stepper"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-stepper/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-stepper/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1349,7 +1341,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/stepper"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-stepper"
       },
       {
         "rel": "repository",
@@ -1357,28 +1349,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/stepper/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-stepper/LICENSE"
       }
     ]
   },
   {
-    "uid": "switch-widget",
-    "type": "widget",
+    "uid": "switch",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Switch",
-    "description": "Switch widget for Asterisc",
+    "description": "Switch web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "switch"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-switch/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-switch/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1387,7 +1379,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/switch"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-switch"
       },
       {
         "rel": "repository",
@@ -1395,28 +1387,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/switch/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-switch/LICENSE"
       }
     ]
   },
   {
-    "uid": "table-widget",
-    "type": "widget",
+    "uid": "table",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Table",
-    "description": "Table widget for Asterisc",
+    "description": "Table web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "table"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-table/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-table/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1425,7 +1417,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/table"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-table"
       },
       {
         "rel": "repository",
@@ -1433,28 +1425,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/table/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-table/LICENSE"
       }
     ]
   },
   {
-    "uid": "text-widget",
-    "type": "widget",
+    "uid": "text",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Text",
-    "description": "Text widget for Asterisc",
+    "description": "Text web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "text"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-text/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-text/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1463,7 +1455,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/text"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-text"
       },
       {
         "rel": "repository",
@@ -1471,28 +1463,28 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/text/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-text/LICENSE"
       }
     ]
   },
   {
-    "uid": "webcontent-widget",
-    "type": "widget",
+    "uid": "webcontent",
+    "type": "web-component",
     "version": "1.0.0",
     "status": "beta",
     "category": "official",
     "name": "Web content",
-    "description": "Web content widget for Asterisc",
+    "description": "Web content web component for Asterisc",
     "keywords": ["asterisc", "plugin", "widget", "webcontent"],
-    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/index.js",
+    "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-webcontent/src/index.js",
     "links": [
       {
         "rel": "icon",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/src/assets/icon.svg"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-webcontent/src/assets/icon.svg"
       },
       {
         "rel": "screenshot",
-        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/eventlog/src/assets/images/screenshot.png"
+        "src": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-eventlog/src/assets/images/screenshot.png"
       },
       {
         "rel": "author",
@@ -1501,7 +1493,7 @@
       },
       {
         "rel": "homepage",
-        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/webcontent"
+        "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-webcontent"
       },
       {
         "rel": "repository",
@@ -1509,7 +1501,7 @@
       },
       {
         "rel": "license",
-        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/webcontent/LICENSE"
+        "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-webcontent/LICENSE"
       }
     ]
   }

@@ -1,6 +1,6 @@
-# Asterisc Plugin Repository
+# Asterisc Plugin Repository (Work in Progress!)
 
-Plugin repository for Asterisc, Web of Things platform to interconnect IoT devices, platforms and services over the web.
+Plugin repository for [Asterisc](https://app.asterisc.io), an open Web of Things platform to interconnect IoT devices, platforms and services over the web.
 
 This repository lists all officially supported plugins listed on [asterisc.io](https://asterisc.io/plugins) and used by the [Asterisc Application Enablement Platform](https://app.asterisc.io).
 
@@ -48,24 +48,24 @@ Here's an example of a plugin:
 
 ```json
 {
-  "uid": "button-widget",
+  "uid": "wc-button",
   "version": "1.0.0",
-  "type": "widget",
+  "type": "web-component",
   "name": "Button",
-  "description": "Button widget for Asterisc",
+  "description": "Button web component for Asterisc",
   "assets": {
     "logo": {
-      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/button/src/assets/images/logo-light.png",
-      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/button/src/assets/images/logo-dark.png"
+      "light": "https://raw.githubusercontent.com/asteriscio/plugins/main/web-components/wc-button/src/assets/images/logo-light.png",
+      "dark": "https://raw.githubusercontent.com/asteriscio/plugins/main/web-components/wc-button/src/assets/images/logo-dark.png"
     },
     "images": [
       {
         "name": "Demo",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/screenshot.png"
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/web-components/wc-button/src/assets/images/screenshot.png"
       },
       {
         "name": "Options",
-        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/eventlog/src/assets/images/options.png"
+        "path": "https://raw.githubusercontent.com/asteriscio/plugins/main/web-components/wc-button/src/assets/images/options.png"
       }
     ]
   },
@@ -83,7 +83,7 @@ Here's an example of a plugin:
     {
       "name": "MIT License",
       "rel": "license",
-      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/widgets/button/LICENSE"
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/web-components/wc-button/LICENSE"
     }
   ],
   "keywords": ["asterisc", "plugin", "widget", "button"],

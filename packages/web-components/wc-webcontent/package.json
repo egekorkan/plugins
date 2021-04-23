@@ -1,0 +1,17 @@
+{
+  "name": "wc-webcontent",
+  "version": "0.0.1",
+  "description": "Web content web component for Asterisc",
+  "repository": "github:asteriscio/asterisc-webcontent",
+  "homepage": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-webcontent",
+  "author": "Asterisc GmbH",
+  "license": "MIT",
+  "type": "module",
+  "main": "src/index.js",
+  "keywords": [
+    "asterisc",
+    "plugin",
+    "web-component",
+    "webcontent"
+  ]
+}

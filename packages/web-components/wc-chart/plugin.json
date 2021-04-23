@@ -1,0 +1,33 @@
+{
+  "uid": "wc-chart",
+  "version": "1.0.0",
+  "status": "beta",
+  "type": "web-component",
+  "name": "Chart",
+  "description": "Chart web component for Asterisc",
+  "keywords": ["asterisc", "plugin", "web-component", "chart"],
+  "main": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-chart/src/index.js",
+  "links": [
+    {
+      "rel": "icon",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-chart/src/assets/icon.svg"
+    },
+    {
+      "rel": "author",
+      "href": "https://asterisc.io",
+      "title": "Asterisc GmbH"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://github.com/asteriscio/plugins/tree/main/packages/web-components/wc-chart"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/asteriscio/plugins"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/asteriscio/plugins/main/packages/web-components/wc-chart/LICENSE"
+    }
+  ]
+}
