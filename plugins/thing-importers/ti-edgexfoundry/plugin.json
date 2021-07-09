@@ -1,0 +1,41 @@
+{
+  "uid": "ti-edgexfoundry",
+  "type": "thing-importer",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "EdgeX Foundry",
+  "description": "A common open platform unifying the IoT Edge.",
+  "keywords": ["edgexfoundry"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-edgexfoundry/src/assets/icon.png",
+    "color": "#942B49",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://edgexfoundry.org"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/core/thing-importers/ti-edgexfoundry/readme.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-edgexfoundry/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {},
+    "schema": {},
+    "options": {}
+  }
+}

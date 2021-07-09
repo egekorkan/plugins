@@ -1,0 +1,47 @@
+{
+  "uid": "tm-philips-hue-white-light",
+  "type": "thing-model",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Philips HUE White Light",
+  "description": "TD of a Philips HUE White Light Bulb",
+  "keywords": ["philips-hue-white-light"],
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-philips-hue-white-light/src/assets/icon.png",
+    "color": "",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/thing-models/tm-philips-hue-white-light"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-philips-hue-white-light/README.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-philips-hue-white-light/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {
+      "ip": "",
+      "id": "",
+      "username": ""
+    },
+    "schema": {
+      "ip": { "type": "string" },
+      "id": { "type": "string" },
+      "username": { "type": "string" }
+    },
+    "options": {}
+  }
+}

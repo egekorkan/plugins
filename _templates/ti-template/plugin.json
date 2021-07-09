@@ -1,0 +1,43 @@
+{
+  "uid": "ti-template",
+  "type": "thing-importer",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Template",
+  "description": "",
+  "keywords": ["template"],
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-template/src/assets/icon.png",
+    "color": "",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "homepage",
+      "href": ""
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/thing-importers/ti-template"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/core/thing-importers/ti-template/readme.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/ti-template/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {},
+    "schema": {},
+    "options": {}
+  }
+}

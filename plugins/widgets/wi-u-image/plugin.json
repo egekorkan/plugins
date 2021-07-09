@@ -1,0 +1,144 @@
+{
+  "uid": "wi-u-image",
+  "type": "widget",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Image",
+  "description": "Image widget for Netzo",
+  "keywords": ["image"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "main": "@netzoio/plugins/plugins/widgets/wi-u-image/src/index.js",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-image/src/assets/icon.svg",
+    "color": "",
+    "screenshots": [
+      {
+        "label": "Screenshot of the widget",
+        "src": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-image/src/assets/images/screenshot.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/widgets/wi-u-image"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-image/README.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-image/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {
+      "uid": "wi-u-image",
+      "w": 6,
+      "h": 8,
+      "name": "",
+      "description": "",
+      "wot": { "properties": [] },
+      "display": {
+        "transparent": false,
+        "hideToolbar": false,
+        "color": "#0080FF",
+        "textColor": "#121212",
+        "bgImageUrl": ""
+      },
+      "options": {
+        "src": "https://netzo.io/img/netzo-symbol-light.svg",
+        "alt": "Netzo WoT Platform",
+        "href": "https://netzo.io"
+      }
+    },
+    "schema": {
+      "type": "object",
+      "x-display": "expansion-panels",
+      "x-props": {
+        "value": [0, 1]
+      },
+      "properties": {
+        "uid": { "const": "wi-u-image" },
+        "w": { "const": 6 },
+        "h": { "const": 8 },
+        "name": { "type": "string", "title": "Display name", "required": true },
+        "description": {
+          "type": "string",
+          "title": "Description",
+          "x-display": "textarea"
+        },
+        "wot": {
+          "const": null,
+          "examples": [null]
+        },
+        "display": {
+          "type": "object",
+          "title": "Display",
+          "properties": {
+            "transparent": { "type": "boolean", "title": "Transparent" },
+            "hideToolbar": { "type": "boolean", "title": "Hide Toolbar" },
+            "color": {
+              "type": "string",
+              "title": "Color",
+              "format": "hexcolor"
+            },
+            "textColor": {
+              "type": "string",
+              "title": "Text color",
+              "format": "hexcolor"
+            },
+            "bgImageUrl": {
+              "type": "string",
+              "title": "Background Image",
+              "description": "The URL of an image to use as background image.",
+              "bgImageUrl": {
+                "type": "string",
+                "title": "Background Image",
+                "description": "The URL of an image to use as background image.",
+                "contentMediaType": "image/*",
+                "x-options": {
+                  "filesAsDataUrl": true
+                },
+                "writeOnly": true
+              }
+            }
+          }
+        },
+        "options": {
+          "type": "object",
+          "title": "Options",
+          "properties": {
+            "src": {
+              "type": "string",
+              "title": "Image URL",
+              "description": "The URL of the image",
+              "pattern": "uri"
+            },
+            "alt": {
+              "type": "string",
+              "title": "Image Alt Text",
+              "description": "Alternate text for an image, if the image cannot be displayed.",
+              "x-display": "textarea"
+            },
+            "link": {
+              "type": "string",
+              "title": "Link URL",
+              "description": "The URL to redirect to on image click.",
+              "pattern": "uri"
+            }
+          }
+        }
+      }
+    },
+    "options": {}
+  }
+}

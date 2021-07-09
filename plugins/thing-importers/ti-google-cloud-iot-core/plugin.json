@@ -1,0 +1,45 @@
+{
+  "uid": "ti-google-cloud-iot-core",
+  "type": "thing-importer",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Google Cloud IoT Core",
+  "description": "Google Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices.",
+  "keywords": ["google-cloud-iot-core"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-google-cloud-iot-core/src/assets/icon.png",
+    "color": "#4B85F4",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://cloud.google.com/iot-core"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/thing-importers/ti-google-cloud-iot-core"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/core/thing-importers/ti-google-cloud-iot-core/readme.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-google-cloud-iot-core/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {},
+    "schema": {},
+    "options": {}
+  }
+}

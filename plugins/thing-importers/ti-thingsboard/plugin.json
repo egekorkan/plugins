@@ -1,0 +1,41 @@
+{
+  "uid": "ti-thingsboard",
+  "type": "thing-importer",
+  "version": "1.0.0",
+  "status": "requested",
+  "category": "official",
+  "name": "Thingsboard",
+  "description": "An IoT platform for device management, data collection, processing and visualization for your IoT solution",
+  "keywords": ["thingsboard"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-thingsboard/src/assets/icon.png",
+    "color": "#305681",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://thingsboard.io"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/core/thing-importers/ti-thingsboard/readme.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-thingsboard/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {},
+    "schema": {},
+    "options": {}
+  }
+}

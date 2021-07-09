@@ -1,0 +1,201 @@
+{
+  "uid": "wi-p-chart",
+  "type": "widget",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Chart",
+  "description": "Chart widget for Netzo",
+  "keywords": ["chart"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "main": "@netzoio/plugins/plugins/widgets/wi-p-chart/src/index.js",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-p-chart/src/assets/icon.svg",
+    "color": "",
+    "screenshots": [
+      {
+        "label": "Screenshot of the widget",
+        "src": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-p-chart/src/assets/images/screenshot.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/widgets/wi-p-chart"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-p-chart/README.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-p-chart/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {
+      "uid": "wi-p-chart",
+      "w": 6,
+      "h": 8,
+      "name": "",
+      "description": "",
+      "wot": { "properties": [] },
+      "display": {
+        "transparent": false,
+        "hideToolbar": false,
+        "color": "#0080FF",
+        "textColor": "#121212",
+        "bgImageUrl": ""
+      },
+      "options": { "type": "line" }
+    },
+    "schema": {
+      "type": "object",
+      "x-display": "expansion-panels",
+      "x-props": {
+        "value": [0, 1]
+      },
+      "properties": {
+        "uid": { "const": "wi-p-chart" },
+        "w": { "const": 6 },
+        "h": { "const": 8 },
+        "name": { "type": "string", "title": "Display name", "required": true },
+        "description": {
+          "type": "string",
+          "title": "Description",
+          "x-display": "textarea"
+        },
+        "wot": {
+          "type": "object",
+          "title": "WoT Property",
+          "properties": {
+            "thingId": { "type": "string" },
+            "tdKey": { "const": "properties" },
+            "name": { "type": "string" },
+            "title": { "type": "string" },
+            "description": { "type": "string" },
+            "type": { "type": "string", "enum": ["array", "object"] },
+            "readOnly": { "type": "boolean" },
+            "writeOnly": { "type": "boolean" },
+            "observable": { "type": "boolean" }
+          },
+          "required": ["thingId", "tdKey", "name", "type"],
+          "additionalProperties": true,
+          "x-display": "custom-v-select-avatar-thing-wot",
+          "examples": []
+        },
+        "display": {
+          "type": "object",
+          "title": "Display",
+          "properties": {
+            "transparent": { "type": "boolean", "title": "Transparent" },
+            "hideToolbar": { "type": "boolean", "title": "Hide Toolbar" },
+            "color": {
+              "type": "string",
+              "title": "Color",
+              "format": "hexcolor"
+            },
+            "textColor": {
+              "type": "string",
+              "title": "Text color",
+              "format": "hexcolor"
+            },
+            "bgImageUrl": {
+              "type": "string",
+              "title": "Background Image",
+              "description": "The URL of an image to use as background image.",
+              "bgImageUrl": {
+                "type": "string",
+                "title": "Background Image",
+                "description": "The URL of an image to use as background image.",
+                "contentMediaType": "image/*",
+                "x-options": {
+                  "filesAsDataUrl": true
+                },
+                "writeOnly": true
+              }
+            }
+          }
+        },
+        "options": {
+          "type": {
+            "type": "string",
+            "title": "Chart type",
+            "x-display": "icon",
+            "x-itemIcon": "icon",
+            "oneOf": [
+              {
+                "const": "area",
+                "title": "Area",
+                "icon": "area-chart"
+              },
+              {
+                "const": "bar",
+                "title": "Bar",
+                "icon": "bar-chart"
+              },
+              {
+                "const": "candlestick",
+                "title": "Candlestick",
+                "icon": "candlestick-chart"
+              },
+              {
+                "const": "heatmap",
+                "title": "Heat Map",
+                "icon": "heatmap-chart"
+              },
+              {
+                "const": "treemap",
+                "title": "Tree Map",
+                "icon": "treemap-chart"
+              },
+              {
+                "const": "donut",
+                "title": "Donut",
+                "icon": "donut-chart"
+              },
+              {
+                "const": "line",
+                "title": "Line",
+                "icon": "line-chart"
+              },
+              {
+                "const": "pie",
+                "title": "Pie",
+                "icon": "pie-chart"
+              },
+              {
+                "const": "rangebar",
+                "title": "Range Bar",
+                "icon": "rangebar-chart"
+              },
+              {
+                "const": "radialbar",
+                "title": "Radial Bar",
+                "icon": "radialbar-chart"
+              },
+              {
+                "const": "treemap",
+                "title": "Tree Map",
+                "icon": "treemap-chart"
+              },
+              {
+                "const": "radar",
+                "title": "Radar",
+                "icon": "radar-chart"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "options": {}
+  }
+}

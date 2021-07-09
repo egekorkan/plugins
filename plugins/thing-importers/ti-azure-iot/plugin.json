@@ -1,0 +1,45 @@
+{
+  "uid": "ti-azure-iot",
+  "type": "thing-importer",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Azure IoT",
+  "description": "Azure IoT is a collection of managed and platform services across edge and cloud that connect, monitor, and control billions of IoT assets.",
+  "keywords": ["azure-iot"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-azure-iot/src/assets/icon.png",
+    "color": "#3E74CD",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://azure.microsoft.com/en-us/overview/iot"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/thing-importers/ti-azure-iot"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/core/thing-importers/ti-azure-iot/readme.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-azure-iot/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {},
+    "schema": {},
+    "options": {}
+  }
+}

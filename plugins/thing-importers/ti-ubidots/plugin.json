@@ -1,0 +1,41 @@
+{
+  "uid": "ti-ubidots",
+  "type": "thing-importer",
+  "version": "1.0.0",
+  "status": "requested",
+  "category": "official",
+  "name": "Ubidots",
+  "description": "Ubidots is a platform for developing end-to-end IoT applications.",
+  "keywords": ["ubidots"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-ubidots/src/assets/icon.png",
+    "color": "#C5C6C7",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://ubidots.com"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/core/thing-importers/ti-ubidots/readme.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-ubidots/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {},
+    "schema": {},
+    "options": {}
+  }
+}

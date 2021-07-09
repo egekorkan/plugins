@@ -1,0 +1,45 @@
+{
+  "uid": "ti-particle",
+  "type": "thing-importer",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Particle",
+  "description": "Particle offers an array of IoT essentials—hardware, connectivity, and the platform used to run the connected devices.",
+  "keywords": ["particle"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-particle/src/assets/icon.png",
+    "color": "#51ADEF",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "homepage",
+      "href": "https://www.particle.io"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/thing-importers/ti-particle"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/core/thing-importers/ti-particle/readme.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-particle/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {},
+    "schema": {},
+    "options": {}
+  }
+}

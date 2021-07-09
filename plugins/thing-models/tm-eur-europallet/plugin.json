@@ -1,0 +1,51 @@
+{
+  "uid": "tm-eur-pallet",
+  "type": "thing-model",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "EUR-pallet",
+  "description": "The standard European pallet as specified by the European Pallet Association (EPAL). Pallets conforming to the standardization are eligible for the European Pallet Pool (EPP), the system which allows for an exchange as pallet for pallet .The EUR/EPAL-pallet is 1,200 mm × 800 mm × 144 mm (47.2 in × 31.5 in × 5.7 in); it is a four-way pallet made of wood that is nailed with 78 special nails in a prescribed pattern. The weight of a EUR/EPAL-pallet (EPAL 1) is approx. 25 kg. [1] Around 450-500 million EUR-pallets are in circulation.",
+  "keywords": ["eur-europallet"],
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-eur-pallet/src/assets/icon.png",
+    "color": "",
+    "screenshots": []
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/thing-models/tm-eur-europallet"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-eur-europallet/README.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-eur-europallet/LICENSE"
+    },
+    {
+      "rel": "store",
+      "href": "https://store.ncd.io/product/industrial-iot-long-range-wireless-environmental-temperature-humidity-pressure-air-quality-sensor/"
+    }
+  ],
+  "form": {
+    "model": {
+      "ip": "",
+      "id": "",
+      "username": ""
+    },
+    "schema": {
+      "ip": { "type": "string" },
+      "id": { "type": "string" },
+      "username": { "type": "string" }
+    },
+    "options": {}
+  }
+}

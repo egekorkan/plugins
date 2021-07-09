@@ -1,0 +1,65 @@
+{
+  "name": "@netzoio/plugins",
+  "version": "0.0.1",
+  "description": "Plugin repository for Netzo, a Web of Things platform to interconnect IoT devices, platforms and services over the web.",
+  "keywords": [
+    "netzo",
+    "wot",
+    "web-of-things",
+    "iot",
+    "internet-of-things",
+    "w3c",
+    "opensource",
+    "plugins"
+  ],
+  "homepage": "https://github.com/netzoio/plugins#readme",
+  "bugs": {
+    "url": "https://github.com/netzoio/plugins/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netzoio/plugins.git"
+  },
+  "license": "MIT",
+  "author": "Asterisc GmbH",
+  "type": "module",
+  "main": "./plugins/index.js",
+  "exports": {
+    "import": "./plugins/index.js"
+  },
+  "scripts": {
+    "deploy": "NETZO_API_EMAIL=demo@netzo.io NETZO_API_PASSWORD=asteriscio node ./scripts/deploy-plugins.js",
+    "test": "jest"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run deploy"
+    }
+  },
+  "dependencies": {
+    "jsonata": "^1.8.4",
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "ajv": "^8.6.0",
+    "axios": "^0.21.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^6.2.2",
+    "husky": "^6.0.0",
+    "jest": "^27.0.4",
+    "prettier": "^2.2.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "NCD Enviornment IoT Sensor",
+  "id": "urn:dev:ops:32473-HueBridge-1234",
+  "description": "Industrial IoT Long Range Wireless Environmental Temperature Humidity Pressure Air Quality Sensor",
+  "@context": [
+    "https://www.w3.org/2019/wot/td/v1",
+    {
+      "@language": "en"
+    }
+  ],
+  "properties": {},
+  "actions": {},
+  "events": {}
+}

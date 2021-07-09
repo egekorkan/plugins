@@ -1,0 +1,159 @@
+{
+  "uid": "wi-u-webcontent",
+  "type": "widget",
+  "version": "1.0.0",
+  "status": "beta",
+  "category": "official",
+  "name": "Web content",
+  "description": "Web content widget for Netzo",
+  "keywords": ["webcontent"],
+  "authors": ["miguel.romero@netzo.io"],
+  "license": "MIT",
+  "main": "@netzoio/plugins/plugins/widgets/wi-u-webcontent/src/index.js",
+  "display": {
+    "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-webcontent/src/assets/icon.svg",
+    "color": "",
+    "screenshots": [
+      {
+        "label": "Screenshot of the widget",
+        "src": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-webcontent/src/assets/images/screenshot.png"
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "author",
+      "href": "https://netzo.io",
+      "title": "Netzo"
+    },
+    {
+      "rel": "repository",
+      "href": "https://github.com/netzoio/plugins/tree/main/plugins/widgets/wi-u-webcontent"
+    },
+    {
+      "rel": "readme",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-webcontent/README.md"
+    },
+    {
+      "rel": "license",
+      "href": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-webcontent/LICENSE"
+    }
+  ],
+  "form": {
+    "model": {
+      "uid": "wi-u-webcontent",
+      "w": 6,
+      "h": 8,
+      "name": "",
+      "description": "",
+      "wot": { "properties": [] },
+      "display": {
+        "transparent": false,
+        "hideToolbar": false,
+        "color": "#0080FF",
+        "textColor": "#121212",
+        "bgImageUrl": ""
+      },
+      "options": {
+        "src": "https://netzo.io/img/netzo-symbol-grayscale-light.svg",
+        "title": "Netzo WoT Platform"
+      }
+    },
+    "schema": {
+      "type": "object",
+      "x-display": "expansion-panels",
+      "x-props": {
+        "value": [0, 1]
+      },
+      "properties": {
+        "uid": { "const": "wi-u-webcontent" },
+        "w": { "const": 6 },
+        "h": { "const": 8 },
+        "name": { "type": "string", "title": "Display name", "required": true },
+        "description": {
+          "type": "string",
+          "title": "Description",
+          "x-display": "textarea"
+        },
+        "wot": {
+          "const": null,
+          "examples": [null]
+        },
+        "display": {
+          "type": "object",
+          "title": "Display",
+          "properties": {
+            "transparent": { "type": "boolean", "title": "Transparent" },
+            "hideToolbar": { "type": "boolean", "title": "Hide Toolbar" },
+            "color": {
+              "type": "string",
+              "title": "Color",
+              "format": "hexcolor"
+            },
+            "textColor": {
+              "type": "string",
+              "title": "Text color",
+              "format": "hexcolor"
+            },
+            "bgImageUrl": {
+              "type": "string",
+              "title": "Background Image",
+              "description": "The URL of an image to use as background image.",
+              "bgImageUrl": {
+                "type": "string",
+                "title": "Background Image",
+                "description": "The URL of an image to use as background image.",
+                "contentMediaType": "image/*",
+                "x-options": {
+                  "filesAsDataUrl": true
+                },
+                "writeOnly": true
+              }
+            }
+          }
+        },
+        "options": {
+          "type": "object",
+          "title": "Options",
+          "oneOf": [
+            {
+              "title": "URL Embed",
+              "properties": {
+                "src": {
+                  "type": "string",
+                  "title": "IFrame URL",
+                  "description": "The URL to be embedded in an iframe",
+                  "pattern": "uri"
+                },
+                "title": {
+                  "type": "string",
+                  "title": "IFrame Title",
+                  "description": "Additional textual information for the IFrame element.",
+                  "x-display": "textarea"
+                }
+              }
+            },
+            {
+              "title": "Custom HTML",
+              "properties": {
+                "srcdoc": {
+                  "type": "string",
+                  "title": "Source Code",
+                  "description": "Custom HTML, CSS and JS to be rendered by iframe",
+                  "x-display": "textarea"
+                },
+                "title": {
+                  "type": "string",
+                  "title": "IFrame Title",
+                  "description": "Additional textual information for the IFrame element.",
+                  "x-display": "textarea"
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "options": {}
+  }
+}
