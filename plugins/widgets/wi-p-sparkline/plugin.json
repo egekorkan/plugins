@@ -54,7 +54,7 @@
         "color": "#0080FF",
         "textColor": "#121212",
         "bgImageUrl": "",
-        "fill": true,
+        "fill": false,
         "lineWidth": 4,
         "smooth": false,
         "autoDraw": true,

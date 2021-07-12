@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://netzo.io" target="_blank" >
-    <img height="50" src="https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-template/src/assets/icon.svg" style="margin: 12px 0px">
+    <img height="50" src="https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-template/src/assets/icon.svg" style="margin: 12px 0px" />
   </a>
 
   <h1>ti-template</h1>
