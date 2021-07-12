@@ -35,6 +35,7 @@
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-p-switch/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-p-table/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-image/plugin.json",
+  "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-list-dashboards/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-list-things/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/widgets/wi-u-webcontent/plugin.json"
 ]
