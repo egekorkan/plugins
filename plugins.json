@@ -15,6 +15,7 @@
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-zerynth/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-eur-europallet/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-ncd-environment-iot-sensor/plugin.json",
+  "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-packwise-container/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-philips-hue-bridge/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-philips-hue-daylight-sensor/plugin.json",
   "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-models/tm-philips-hue-dimmer-switch/plugin.json",
