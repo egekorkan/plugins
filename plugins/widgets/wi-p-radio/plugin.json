@@ -50,7 +50,8 @@
       "display": {
         "transparent": false,
         "hideToolbar": false,
-        "label": "",
+        "labelOn": "On",
+        "labelOff": "Off",
         "color": "#0080FF",
         "textColor": "#121212",
         "bgImageUrl": ""
@@ -97,7 +98,8 @@
           "properties": {
             "transparent": { "type": "boolean", "title": "Transparent" },
             "hideToolbar": { "type": "boolean", "title": "Hide Toolbar" },
-            "label": { "type": "string", "title": "Label" },
+            "labelOn": { "type": "string", "title": "On Label" },
+            "labelOff": { "type": "string", "title": "Off Label" },
             "color": {
               "type": "string",
               "title": "Color",
