@@ -7,7 +7,7 @@
   "name": "Checkbox",
   "description": "Checkbox widget for Netzo",
   "keywords": ["checkbox"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-p-checkbox/src/index.js",
   "display": {

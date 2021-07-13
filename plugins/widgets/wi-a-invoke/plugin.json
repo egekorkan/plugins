@@ -7,7 +7,7 @@
   "name": "Button",
   "description": "Button widget for Netzo",
   "keywords": ["button"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-a-invoke/src/index.js",
   "display": {

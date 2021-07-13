@@ -7,7 +7,7 @@
   "name": "Dashboards List",
   "description": "Dashboards List widget for Netzo",
   "keywords": ["list-dashboards"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-u-list-dashboards/src/index.js",
   "display": {

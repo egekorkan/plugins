@@ -7,7 +7,7 @@
   "name": "Festo Smartenance",
   "description": "Smartenance is a cloud application that consists of a web application and an app for tablets and smartphones (operating devices).",
   "keywords": ["festo-smartenance"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-festo-smartenance/src/assets/icon.png",

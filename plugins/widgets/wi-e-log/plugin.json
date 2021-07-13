@@ -7,7 +7,7 @@
   "name": "Eventlog",
   "description": "Eventlog widget for Netzo",
   "keywords": ["log"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-e-log/src/index.js",
   "display": {

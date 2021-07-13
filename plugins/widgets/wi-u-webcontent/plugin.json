@@ -7,7 +7,7 @@
   "name": "Web content",
   "description": "Web content widget for Netzo",
   "keywords": ["webcontent"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-u-webcontent/src/index.js",
   "display": {

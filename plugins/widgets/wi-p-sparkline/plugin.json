@@ -7,7 +7,7 @@
   "name": "Sparkline",
   "description": "Sparkline widget for Netzo",
   "keywords": ["sparkline"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-p-sparkline/src/index.js",
   "display": {

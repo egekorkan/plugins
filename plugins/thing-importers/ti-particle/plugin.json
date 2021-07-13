@@ -7,7 +7,7 @@
   "name": "Particle",
   "description": "Particle offers an array of IoT essentials—hardware, connectivity, and the platform used to run the connected devices.",
   "keywords": ["particle"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-particle/src/assets/icon.png",

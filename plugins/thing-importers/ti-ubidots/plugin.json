@@ -7,7 +7,7 @@
   "name": "Ubidots",
   "description": "Ubidots is a platform for developing end-to-end IoT applications.",
   "keywords": ["ubidots"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-ubidots/src/assets/icon.png",

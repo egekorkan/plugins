@@ -7,7 +7,7 @@
   "name": "Image",
   "description": "Image widget for Netzo",
   "keywords": ["image"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-u-image/src/index.js",
   "display": {

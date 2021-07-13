@@ -7,7 +7,7 @@
   "name": "Kaa",
   "description": "The Kaa Cloud is an IoT platform-as-a-service (PaaS) accessible for all the registered users with KaaID.",
   "keywords": ["kaa"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-kaa/src/assets/icon.png",

@@ -7,7 +7,7 @@
   "name": "Slider",
   "description": "Slider widget for Netzo",
   "keywords": ["slider"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-p-slider/src/index.js",
   "display": {

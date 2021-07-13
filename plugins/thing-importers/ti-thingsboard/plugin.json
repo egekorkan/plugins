@@ -7,7 +7,7 @@
   "name": "Thingsboard",
   "description": "An IoT platform for device management, data collection, processing and visualization for your IoT solution",
   "keywords": ["thingsboard"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-thingsboard/src/assets/icon.png",

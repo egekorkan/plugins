@@ -7,7 +7,7 @@
   "name": "Losant",
   "description": "Losant is a powerful, easy-to-use enterprise IoT platform.",
   "keywords": ["losant"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-losant/src/assets/icon.png",

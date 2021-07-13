@@ -7,7 +7,7 @@
   "name": "Azure IoT",
   "description": "Azure IoT is a collection of managed and platform services across edge and cloud that connect, monitor, and control billions of IoT assets.",
   "keywords": ["azure-iot"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-azure-iot/src/assets/icon.png",

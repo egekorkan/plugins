@@ -7,7 +7,7 @@
   "name": "Map",
   "description": "Map widget for Netzo",
   "keywords": ["map"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-p-map/src/index.js",
   "display": {

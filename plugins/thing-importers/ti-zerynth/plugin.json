@@ -7,7 +7,7 @@
   "name": "Zerynth",
   "description": "The Zerynth IoT Platform is a full set of hardware-software tools designed by IoT experts to enable the digital transformation in a fast, flexible and secure way.",
   "keywords": ["zerynth"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-zerynth/src/assets/icon.png",

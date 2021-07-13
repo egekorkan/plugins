@@ -7,7 +7,7 @@
   "name": "Google Cloud IoT Core",
   "description": "Google Cloud IoT Core is a fully managed service that allows you to easily and securely connect, manage, and ingest data from millions of globally dispersed devices.",
   "keywords": ["google-cloud-iot-core"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-google-cloud-iot-core/src/assets/icon.png",

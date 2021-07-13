@@ -7,7 +7,7 @@
   "name": "Content",
   "description": "Content widget for Netzo",
   "keywords": ["content"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-p-content/src/index.js",
   "display": {

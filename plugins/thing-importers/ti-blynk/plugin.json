@@ -7,7 +7,7 @@
   "name": "Blynk",
   "description": "A hardware-agnostic IoT platform.",
   "keywords": ["blynk"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-blynk/src/assets/icon.png",

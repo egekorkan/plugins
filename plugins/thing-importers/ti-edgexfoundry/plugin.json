@@ -7,7 +7,7 @@
   "name": "EdgeX Foundry",
   "description": "A common open platform unifying the IoT Edge.",
   "keywords": ["edgexfoundry"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-edgexfoundry/src/assets/icon.png",

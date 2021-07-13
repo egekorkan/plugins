@@ -7,7 +7,7 @@
   "name": "Things List",
   "description": "Things List widget for Netzo",
   "keywords": ["list-things"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-u-list-things/src/index.js",
   "display": {

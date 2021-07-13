@@ -7,7 +7,7 @@
   "name": "Switch",
   "description": "Switch widget for Netzo",
   "keywords": ["switch"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-p-switch/src/index.js",
   "display": {

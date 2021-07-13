@@ -49,7 +49,7 @@ To be valid, a `plugin.json` file must validate against the [plugin.schema.json]
 | `name`        | String              | true     | A human-friendly display name for the plugin                                                                     |
 | `description` | String              | true     | A brief description of the plugin                                                                                |
 | `keywords`    | String[]            | false    | An array of relevant keywords (camel-case)                                                                       |
-| `authors`     | String[]            | false    | An array of names of plugin authors or owners                                                                    |
+| `authors`     | String[]            | false    | An array of emails of plugin authors or owners (e.g. `mailto:first.last@example.com`)                            |
 | `license`     | String              | false    | A string indicating licensing information (e.g. `MIT`)                                                           |
 | `main`        | String              | false    | URL to the plugin's main entry point (e.g. `@netzoio/plugins/plugins/widgets/wi-p-button-toggle/src/index.js`)   |
 | `display`     | [Display](#display) | true     | A `Display` object specifying relevant details for rendering the plugin in the UI                                |
@@ -105,7 +105,7 @@ Here's a reduced example of a `plugin.json` file. You can also always have a loo
   "name": "Button",
   "description": "Button widget for Netzo",
   "keywords": ["button"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "main": "@netzoio/plugins/plugins/widgets/wi-p-button-toggle/src/index.js",
   "display": {

@@ -7,7 +7,7 @@
   "name": "AWS IoT Core",
   "description": "AWS IoT Core is a managed cloud service that lets connected devices easily and securely interact with cloud applications and other devices.",
   "keywords": ["ti-aws-iot-core"],
-  "authors": ["miguel.romero@netzo.io"],
+  "authors": ["mailto:miguel.romero@netzo.io@netzo.io"],
   "license": "MIT",
   "display": {
     "imageUrl": "https://raw.githubusercontent.com/netzoio/plugins/main/plugins/thing-importers/ti-aws-iot-core/src/assets/icon.png",
