@@ -142,14 +142,8 @@
                 "writeOnly": true
               }
             },
-            "vertical": {
-              "type": "boolean",
-              "title": "Vertical"
-            },
-            "hideButtons": {
-              "type": "boolean",
-              "title": "Hide Buttons"
-            }
+            "vertical": { "type": "boolean", "title": "Vertical" },
+            "hideButtons": { "type": "boolean", "title": "Hide Buttons" }
           }
         },
         "options": {

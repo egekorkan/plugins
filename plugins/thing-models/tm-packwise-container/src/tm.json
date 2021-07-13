@@ -1,0 +1,251 @@
+{
+  "@context": ["http://www.w3.org/ns/td", { "@language": "en" }],
+  "@type": "tm:ThingModel",
+  "title": "Packwise Container {{CONTAINER_NAME}}",
+  "titles": {
+    "en": "Contenedor de Packwise",
+    "de": "Packwise Container",
+    "sp": "Contenedor Packwise"
+  },
+  "description": "A Container equipped with PackWise Smart Cap",
+  "descriptions": {
+    "en": "A Container equipped with PackWise Smart Cap",
+    "de": "Ein Container ausgerüstet mit PackWise Smart Cap",
+    "es": "Un contenedor equipado con PackWise Smart Cap"
+  },
+  "version": {
+    "instance": "1.0.0",
+    "v:firmware": "1.0.0",
+    "v:hardware": "1.0"
+  },
+  "securityDefinitions": {
+    "basic_sc": { "scheme": "basic", "in": "header" }
+  },
+  "security": "basic_sc",
+  "base": "http://{{HTTP_SERVER_ADDRESS}}",
+  "properties": {
+    "_id": {
+      "title": "Container ID",
+      "description": "ID of the container object",
+      "type": "string",
+      "readOnly": true,
+      "writeOnly": false,
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ]
+    },
+    "name": {
+      "title": "Container name",
+      "description": "Name of the container object",
+      "type": "string",
+      "readOnly": true,
+      "writeOnly": false,
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ]
+    },
+    "userDefinedID": {
+      "title": "User Definided ID",
+      "type": "string",
+      "readOnly": true,
+      "writeOnly": false,
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ]
+    },
+    "orderNumber": {
+      "title": "Order Number",
+      "type": "string",
+      "readOnly": true,
+      "writeOnly": false,
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ]
+    },
+    "product": {
+      "title": "Product",
+      "description": "An object containing key information about the product in the container",
+      "type": "object",
+      "properties": {
+        "_id": {
+          "title": "Product ID",
+          "description": "ObjectID!",
+          "type": "string"
+        },
+        "name": {
+          "title": "Product name",
+          "type": "string"
+        },
+        "company": {
+          "title": "Company information",
+          "type": "object",
+          "properties": {
+            "_id": {
+              "title": "Company ID",
+              "type": "string"
+            },
+            "name": {
+              "title": "Company name",
+              "type": "string"
+            },
+            "address": {
+              "title": "Company address",
+              "type": "object",
+              "properties": {
+                "street": { "type": "string" },
+                "city": { "type": "string" },
+                "zip": { "type": "string" },
+                "country": { "type": "string" }
+              }
+            },
+            "meta": {
+              "type": "object",
+              "properties": {
+                "apiKeyValue": { "type": "string" }
+              }
+            }
+          }
+        },
+        "itemNumber": {
+          "title": "Product number",
+          "type": "string"
+        },
+        "orderNumber": {
+          "title": "Order number",
+          "type": "string"
+        },
+        "shortName": {
+          "title": "Product abbreviation",
+          "type": "string"
+        },
+        "producer": {
+          "title": "Product producer",
+          "type": "string"
+        },
+        "flammable": {
+          "title": "Flammable",
+          "type": "boolean"
+        },
+        "unNumber": { "type": "string" },
+        "casNumber": { "type": "string" },
+        "shelfLife": {
+          "title": "Shelf life",
+          "type": "number"
+        },
+        "density": {
+          "type": "float"
+        }
+      },
+      "allowedTemperatures": {
+        "type": "object",
+        "properties": {
+          "min": { "type": "float" },
+          "max": { "type": "float" }
+        }
+      },
+      "readOnly": true,
+      "writeOnly": false,
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ]
+    },
+    "containerType": {
+      "type": "object",
+      "properties": {
+        "_id": {
+          "title": "Container ID",
+          "type": "string"
+        },
+        "name": {
+          "title": "Container name",
+          "type": "string"
+        },
+        "pictureURL": {
+          "title": "Picture URL",
+          "type": "string"
+        },
+        "maxVolume": {
+          "title": "Container capacity",
+          "type": "float"
+        },
+        "hasFillingLevel": { "type": "boolean" },
+        "hasOpenCloseState": { "type": "boolean" },
+        "fillingLevelCalculationMethod": { "type": "string" },
+        "sensorToZeroDistance": { "type": "float" },
+        "sensorToMaxDistance": { "type": "float" },
+        "fillingLevelTable": {
+          "type": "object",
+          "properties": {
+            "distance": { "type": "float" },
+            "volume": { "type": "float" }
+          }
+        },
+        "company": {
+          "title": "Company information",
+          "type": "object",
+          "properties": {
+            "_id": {
+              "title": "Company ID",
+              "type": "string"
+            },
+            "name": {
+              "title": "Company name",
+              "type": "string"
+            },
+            "address": {
+              "title": "Company address",
+              "type": "object",
+              "properties": {
+                "street": { "type": "string" },
+                "city": { "type": "string" },
+                "zip": { "type": "string" },
+                "country": { "type": "string" }
+              }
+            },
+            "meta": {
+              "type": "object",
+              "properties": {
+                "apiKeyValue": { "type": "string" }
+              }
+            }
+          }
+        }
+      },
+      "readOnly": true,
+      "writeOnly": false,
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ]
+    }
+  }
+}

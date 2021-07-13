@@ -54,6 +54,7 @@
         "labelOff": "Off",
         "color": "#0080FF",
         "textColor": "#121212",
+        "vertical": true,
         "bgImageUrl": ""
       }
     },
@@ -110,6 +111,7 @@
               "title": "Text color",
               "format": "hexcolor"
             },
+            "vertical": { "type": "boolean", "title": "Vertical" },
             "bgImageUrl": {
               "type": "string",
               "title": "Background Image",

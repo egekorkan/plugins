@@ -52,7 +52,8 @@
         "hideToolbar": false,
         "color": "#0080FF",
         "textColor": "#121212",
-        "bgImageUrl": ""
+        "bgImageUrl": "",
+        "hideButtons": false
       }
     },
     "schema": {
@@ -119,7 +120,8 @@
                   "filesAsDataUrl": true
                 },
                 "writeOnly": true
-              }
+              },
+              "hideButtons": { "type": "boolean", "title": "Hide Buttons" }
             }
           }
         }
