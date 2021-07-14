@@ -1,11 +1,16 @@
 {
-  "@context": ["http://www.w3.org/ns/td", { "@language": "en" }],
+  "@context": [
+    "http://www.w3.org/ns/td",
+    {
+      "@language": "en"
+    }
+  ],
   "@type": "tm:ThingModel",
   "title": "Packwise Container {{CONTAINER_NAME}}",
   "titles": {
-    "en": "Contenedor de Packwise",
-    "de": "Packwise Container",
-    "sp": "Contenedor Packwise"
+    "en": "Packwise Container {{CONTAINER_NAME}}",
+    "de": "Packwise Container {{CONTAINER_NAME}}",
+    "sp": "Contenedor de Packwise {{CONTAINER_NAME}}"
   },
   "description": "A Container equipped with PackWise Smart Cap",
   "descriptions": {
@@ -18,9 +23,7 @@
     "v:firmware": "1.0.0",
     "v:hardware": "1.0"
   },
-  "securityDefinitions": {
-    "basic_sc": { "scheme": "basic", "in": "header" }
-  },
+  "securityDefinitions": { "basic_sc": { "scheme": "basic", "in": "header" } },
   "security": "basic_sc",
   "base": "http://{{HTTP_SERVER_ADDRESS}}",
   "properties": {
@@ -90,11 +93,15 @@
         "_id": {
           "title": "Product ID",
           "description": "ObjectID!",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "name": {
           "title": "Product name",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "company": {
           "title": "Company information",
@@ -102,65 +109,105 @@
           "properties": {
             "_id": {
               "title": "Company ID",
-              "type": "string"
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
             },
             "name": {
               "title": "Company name",
-              "type": "string"
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
             },
             "address": {
               "title": "Company address",
               "type": "object",
               "properties": {
-                "street": { "type": "string" },
-                "city": { "type": "string" },
-                "zip": { "type": "string" },
-                "country": { "type": "string" }
-              }
+                "street": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "city": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "zip": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "country": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
             },
             "meta": {
               "type": "object",
               "properties": {
-                "apiKeyValue": { "type": "string" }
-              }
+                "apiKeyValue": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
             }
-          }
+          },
+          "readOnly": true,
+          "writeOnly": false
         },
         "itemNumber": {
           "title": "Product number",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "orderNumber": {
           "title": "Order number",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "shortName": {
           "title": "Product abbreviation",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "producer": {
           "title": "Product producer",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "flammable": {
           "title": "Flammable",
-          "type": "boolean"
+          "type": "boolean",
+          "readOnly": true,
+          "writeOnly": false
         },
-        "unNumber": { "type": "string" },
-        "casNumber": { "type": "string" },
+        "unNumber": { "type": "string", "readOnly": true, "writeOnly": false },
+        "casNumber": { "type": "string", "readOnly": true, "writeOnly": false },
         "shelfLife": {
           "title": "Shelf life",
-          "type": "number"
+          "type": "number",
+          "readOnly": true,
+          "writeOnly": false
         },
-        "density": {
-          "type": "float"
-        }
+        "density": { "type": "double", "readOnly": true, "writeOnly": false }
       },
       "allowedTemperatures": {
         "type": "object",
         "properties": {
-          "min": { "type": "float" },
-          "max": { "type": "float" }
+          "min": { "type": "double" },
+          "max": { "type": "double" }
         }
       },
       "readOnly": true,
@@ -179,31 +226,65 @@
       "properties": {
         "_id": {
           "title": "Container ID",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "name": {
           "title": "Container name",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "pictureURL": {
           "title": "Picture URL",
-          "type": "string"
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
         },
         "maxVolume": {
           "title": "Container capacity",
-          "type": "float"
+          "type": "double",
+          "readOnly": true,
+          "writeOnly": false
         },
-        "hasFillingLevel": { "type": "boolean" },
-        "hasOpenCloseState": { "type": "boolean" },
-        "fillingLevelCalculationMethod": { "type": "string" },
-        "sensorToZeroDistance": { "type": "float" },
-        "sensorToMaxDistance": { "type": "float" },
+        "hasFillingLevel": {
+          "type": "boolean",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "hasOpenCloseState": {
+          "type": "boolean",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "fillingLevelCalculationMethod": {
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "sensorToZeroDistance": {
+          "type": "double",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "sensorToMaxDistance": {
+          "type": "double",
+          "readOnly": true,
+          "writeOnly": false
+        },
         "fillingLevelTable": {
           "type": "object",
           "properties": {
-            "distance": { "type": "float" },
-            "volume": { "type": "float" }
-          }
+            "distance": {
+              "type": "double",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "volume": { "type": "double", "readOnly": true, "writeOnly": false }
+          },
+          "readOnly": true,
+          "writeOnly": false
         },
         "company": {
           "title": "Company information",
@@ -211,29 +292,47 @@
           "properties": {
             "_id": {
               "title": "Company ID",
-              "type": "string"
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
             },
             "name": {
               "title": "Company name",
-              "type": "string"
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
             },
             "address": {
               "title": "Company address",
               "type": "object",
               "properties": {
-                "street": { "type": "string" },
-                "city": { "type": "string" },
-                "zip": { "type": "string" },
-                "country": { "type": "string" }
-              }
-            },
-            "meta": {
-              "type": "object",
-              "properties": {
-                "apiKeyValue": { "type": "string" }
-              }
+                "street": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "city": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "zip": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "country": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
             }
-          }
+          },
+          "readOnly": true,
+          "writeOnly": false
         }
       },
       "readOnly": true,
@@ -246,6 +345,593 @@
           "htv:methodName": "POST"
         }
       ]
+    },
+    "currentState": {
+      "title": "Container History Entry",
+      "type": "object",
+      "properties": {
+        "_id": {
+          "title": "Container ID",
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "place": {
+          "type": "object",
+          "properties": {
+            "_id": { "type": "string", "readOnly": true, "writeOnly": false },
+            "name": { "type": "string", "readOnly": true, "writeOnly": false },
+            "placeType": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "location": {
+              "title": "Location",
+              "type": "object",
+              "@type": "schema:GeoCoordinates",
+              "properties": {
+                "longitude": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "latitude": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "elevation": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "radius": { "type": "double" },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "poi": {
+              "title": "Location",
+              "type": "object",
+              "@type": "schema:GeoCoordinates",
+              "properties": {
+                "longitude": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "latitude": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "elevation": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "radius": { "type": "double" },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "address": {
+              "type": "object",
+              "properties": {
+                "street": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "city": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "zip": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "country": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "company": {
+              "title": "Company information",
+              "type": "object",
+              "properties": {
+                "_id": {
+                  "title": "Company ID",
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "name": {
+                  "title": "Company name",
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "address": {
+                  "title": "Company address",
+                  "type": "object",
+                  "properties": {
+                    "street": {
+                      "type": "string",
+                      "readOnly": true,
+                      "writeOnly": false
+                    },
+                    "city": {
+                      "type": "string",
+                      "readOnly": true,
+                      "writeOnly": false
+                    },
+                    "zip": {
+                      "type": "string",
+                      "readOnly": true,
+                      "writeOnly": false
+                    },
+                    "country": {
+                      "type": "string",
+                      "readOnly": true,
+                      "writeOnly": false
+                    }
+                  },
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "meta": {
+                  "type": "object",
+                  "properties": {
+                    "apiKeyValue": {
+                      "type": "string",
+                      "readOnly": true,
+                      "writeOnly": false
+                    }
+                  },
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "coordinators": {
+              "format": "email",
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "parentPlace": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "containerAmount": {
+              "type": "number",
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "processState": {
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "fillingLevel": {
+          "type": "object",
+          "properties": {
+            "percent": {
+              "type": "double",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "litres": {
+              "type": "double",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "trend": { "type": "number", "readOnly": true, "writeOnly": false }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "temperature": {
+          "type": "object",
+          "properties": {
+            "max": { "type": "double", "readOnly": true, "writeOnly": false },
+            "min": { "type": "double", "readOnly": true, "writeOnly": false },
+            "current": {
+              "type": "double",
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "tilt": {
+          "type": "object",
+          "properties": {
+            "max": { "type": "double", "readOnly": true, "writeOnly": false },
+            "current": {
+              "type": "double",
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "acceleration": {
+          "type": "double",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "location": {
+          "title": "Location",
+          "type": "object",
+          "@type": "schema:GeoCoordinates",
+          "properties": {
+            "longitude": {
+              "type": "number",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "latitude": {
+              "type": "number",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "elevation": {
+              "type": "number",
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "radius": { "type": "double" },
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "movementHappened": {
+          "type": "boolean",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "timeStamp": {
+          "type": "dateTime",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "alarms": { "type": "number", "readOnly": true, "writeOnly": false },
+        "isDefect": { "type": "boolean", "readOnly": true, "writeOnly": false }
+      },
+      "readOnly": true,
+      "writeOnly": false,
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ]
+    },
+    "company": {
+      "title": "Company information",
+      "type": "object",
+      "properties": {
+        "_id": {
+          "title": "Company ID",
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "name": {
+          "title": "Company name",
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "address": {
+          "title": "Company address",
+          "type": "object",
+          "properties": {
+            "street": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "city": { "type": "string", "readOnly": true, "writeOnly": false },
+            "zip": { "type": "string", "readOnly": true, "writeOnly": false },
+            "country": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        }
+      },
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ],
+      "readOnly": true,
+      "writeOnly": false
+    },
+    "device": {
+      "title": "Packwise Device",
+      "type": "object",
+      "properties": {
+        "_id": { "type": "string", "readOnly": true, "writeOnly": false },
+        "name": { "type": "string", "readOnly": true, "writeOnly": false },
+        "type": { "type": "integer", "readOnly": true, "writeOnly": false },
+        "internalDeviceId": {
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "providerDeviceId": {
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "customerDeviceId": {
+          "type": "string",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "gatewayId": { "type": "string", "readOnly": true, "writeOnly": false },
+        "company": {
+          "title": "Company information",
+          "type": "object",
+          "properties": {
+            "_id": {
+              "title": "Company ID",
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "name": {
+              "title": "Company name",
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "address": {
+              "title": "Company address",
+              "type": "object",
+              "properties": {
+                "street": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "city": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "zip": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "country": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "meta": {
+              "type": "object",
+              "properties": {
+                "apiKeyValue": {
+                  "type": "string",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "latestSignal": {
+          "type": "dateTime",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "state": { "type": "string", "readOnly": true, "writeOnly": false },
+        "meta": {
+          "title": "Device Meta Data",
+          "type": "object",
+          "properties": {
+            "firmwareVersion": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "firmwareLastUpdate": {
+              "type": "dateTime",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "hardwareVersion": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "IMEI": { "type": "string", "readOnly": true, "writeOnly": false },
+            "ICCID": { "type": "string", "readOnly": true, "writeOnly": false },
+            "IMSI": { "type": "string", "readOnly": true, "writeOnly": false },
+            "SIMCOMVERSION": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "forwardDiehlUpdatesToStaging": {
+          "type": "boolean",
+          "readOnly": true,
+          "writeOnly": false
+        },
+        "latestMeasurement": {
+          "type": "object",
+          "properties": {
+            "_id": { "type": "string", "readOnly": true, "writeOnly": false },
+            "timeStamp": {
+              "type": "dateTime",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "distance": {
+              "type": "double",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "temperature": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "double",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "min": {
+                  "type": "double",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "current": {
+                  "type": "double",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "tilt": {
+              "type": "object",
+              "properties": {
+                "max": {
+                  "type": "double",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "current": {
+                  "type": "double",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "movementHappened": {
+              "type": "boolean",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "acceleration": {
+              "type": "double",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "triggerSource": {
+              "type": "string",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "power": {
+              "title": "Measurement Power",
+              "type": "object",
+              "properties": {
+                "consumed": {
+                  "type": "double",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "remaining": {
+                  "type": "double",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "alarms": {
+              "type": "number",
+              "readOnly": true,
+              "writeOnly": false
+            },
+            "location": {
+              "title": "Location",
+              "type": "object",
+              "@type": "schema:GeoCoordinates",
+              "properties": {
+                "longitude": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "latitude": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                },
+                "elevation": {
+                  "type": "number",
+                  "readOnly": true,
+                  "writeOnly": false
+                }
+              },
+              "radius": { "type": "double" },
+              "readOnly": true,
+              "writeOnly": false
+            }
+          },
+          "readOnly": true,
+          "writeOnly": false
+        }
+      },
+      "forms": [
+        {
+          "href": "/api/data",
+          "contentType": "application/json",
+          "op": ["readproperty"],
+          "htv:methodName": "POST"
+        }
+      ],
+      "readOnly": true,
+      "writeOnly": false
     }
-  }
+  },
+  "events": {}
 }
